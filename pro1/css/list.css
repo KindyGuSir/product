@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.listbanner{width:100%;height:250px; transition: 1s}
+
+.body, .bodyContent, .bodyLeft ul{ width:100%; float:left;}
+.bodyLeft{ width:240px; float:left;}
+.channelName{ width:100%; float:left; height:50px; line-height:50px; background:#f0f0f0; text-align:center; color:#000; font-size:18px;}
+.bodyLeft ul{ width:238px; float:left; border:1px solid #ccc; border-top:none; border-bottom:none;}
+.bodyLeft ul li{ text-align:center; font-size:14px; font-weight:normal; text-align:center; line-height:40px; border-bottom:1px solid #ccc;}
+.bodyLeft ul li a{ color:#272727;}
+.bodyLeft ul li a:hover, .bodyLeft ul li .cur{ color:#da3c23; font-weight:bold;}
+
+
+.bodyRight{ width:730px; float:right;}
+.channel{ width:100%; float:left; height:40px; line-height:40px; font-size:18px; border-bottom:1px solid #ccc;}
+.channel span{ color:#da3c23;}
+
+
+.pages{width:160px; float:right; font-size:14px; }
+.pages a{ padding:0px 20px; height:40px; float:left; text-align:center; line-height:40px; color:#666;}
+.pages .cur, .pages a:hover{ background:#da3c23; color:#fff;}
+.aImg a:hover{ background:none;}
+.aImg{ margin-top:12px;}
+
+
+
+.page{ width:100%; float:left; border-top:1px solid #da3c23;}
+.page div{ width:50%; float:left; line-height:40px;}
+.page a{ color:#666;}
+.page a:hover{ color:#da3c23;}
+
+
+
+.news, .news ul, .news ul li, .newsName, .newsSummary, .newsTitle, .newsTime, .newsContent{ width:100%; float:left;}
+.news ul li{ margin-top:10px; margin-bottom:20px;}
+.newsPic{ width:150px; float:left;}
+.newsRight{ width:560px; float:right;}
+.newsName{ line-height:30px; font-size:14px;}
+.newsName a{ color:#272727;}
+.newsName a:hover{ color:#da3c23;}
+.newsName span{ font-size:12px; color:#666; float:right;}
+.newsSummary{ line-height:30px;}
+
+
+.newsTitle{ font-size:20px; text-align:center; line-height:40px;font-weight:700;}
+.newsTime{ text-align:center; line-height:40px; border-bottom:1px solid #da3c23;}
+.newsContent p{ line-height:24px; text-indent:24px; margin-bottom:10px; font-size:14px;}
