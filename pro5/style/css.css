@@ -1,0 +1,448 @@
+body,p,span,ul,h2,h3{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*这是TOP样式开始*/
+
+.top_bj{
+	height: 5px;
+	width: 100%;
+	background: url(../images/topbj.jpg) repeat;
+}
+.top{
+	height: 136px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.top .lo{
+	display: block;
+	float: left;
+	padding-top: 34px;
+}
+.top_r{
+	width: 1000px;
+	float: left;
+	text-align: right;
+}
+.top_r .a{
+	color: #0053A7;
+	font-size: 12px;
+	padding-right: 20px;
+	background: url(../images/china.jpg) no-repeat right;
+}
+.top_r .b{
+	color: #656565;
+	font-size: 12px;
+	margin-left: 16px;
+	padding-right: 20px;
+	background: url(../images/xjiantou.jpg) no-repeat right;
+}
+.wz{
+	margin-left: 300px;
+}
+.wz ul li{
+	line-height: 136px;
+	background: url(../images/libj.jpg) no-repeat right;
+	list-style: none;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	color: #2F2F2F;
+}
+.wz .lx{
+	background: none;
+}
+/*这是TOP样式结束*/
+
+/*这是BANNER样式开始*/
+.banner{
+		width: 1440px;
+		margin: 0 auto;
+}
+/*这是BANNER样式结束*/
+
+/*这是main样式开始*/
+.main{
+	width: 1000px;
+	margin: 20px auto;
+}
+.main_top{
+	height: 208px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+.main_top .left{
+	width: 450px;
+	float: left;
+}
+.left_top{
+	background: url(../images/dian.jpg) repeat-x bottom;
+	height: 40px;
+}
+.left_top{
+	margin-left: 10px;
+}
+.left_top h3{
+	font-weight: normal;
+	font-size: 14px;
+	float: left;
+	line-height: 40px;
+}
+.left_top .zj{
+	margin-right: 10px;
+	padding-left: 10px;
+	background: url(../images/xiaocircle.jpg) no-repeat left;
+	color: #121212;
+}
+.left_top .ab{
+	color: #0053A7;
+}
+.left_top .more{
+	font-weight: normal; 
+	font-size: 12px;
+	padding-left: 16px;
+	background: url(../images/xjiantou.jpg) no-repeat left;
+	color: #999;
+	float: right;
+}
+.wenzi{
+	margin-left: 10px;
+	height: 156px;
+}
+.wenzi img{
+	margin: 10px;
+	border: 1px solid #ECD7C5;
+	padding: 3px;
+	float: left;
+}
+.wenzi a{
+	color: #29A5E1;
+	text-decoration: none;
+	padding-left: 42px;
+}
+.wenzi p{
+	color: #4B4B4B;
+	line-height: 26px;
+	font-size: 12px;
+}
+.right{
+	width: 514px;
+	float: right;
+}
+.right a{
+	float: left;
+}
+.right .ul{
+	width: 442px;
+	overflow: hidden;
+	float: left;
+}
+.right a span {
+	display: inline-block;
+	height: 129px;
+}
+.right a img,.right a span{
+	vertical-align: middle;
+}
+.right ul{
+	margin-top: 16px;
+	width: 462px;
+}
+.right ul li{
+		color: #333;
+    float: left;
+    font-size: 12px;
+    list-style: outside none none;
+    margin-right: 20px;
+    text-align: center;
+    width: 133px;
+}
+/*这是main样式结束*/
+
+/*这是main_新闻中心,项目案例样式开始*/
+.all{
+	width: 1000px;
+	height: 300px;
+	margin: 0 auto;
+}
+.all_left{
+	border-radius: 10px;
+	height: 300px;
+	border: 1px solid #ccc;
+	width: 450px;
+	float: left;
+}
+.news{
+	margin-left: 10px;
+}
+.news ul li {
+	line-height: 30px;
+	padding-left: 14px;
+	background: url(../images/bluejt.jpg) no-repeat left;
+	font-size: 12px;
+	color: #4B4B4B;
+	list-style: none;
+}
+.news span{
+	font-size: 12px;
+	color: #4B4B4B;
+	float: right;
+}
+
+.all_right{
+	width: 532px;
+	height: 300px;
+	float: right;
+}
+.xmal{
+	height: 206px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+.xmal .st{
+	font-size: 12px;
+	width: 400px;
+	height: 42px;
+	line-height: 30px;
+	margin-left: 154px;
+	margin-top: 10px;
+}
+.st h3,.st p{
+	color: #4B4B4B;
+}
+.st span{
+	color: #29A5E1;
+}
+.xmal .a{
+	padding-right: 100px;
+	float: right;
+}
+.xmal img{
+	margin-top:10px; 
+	margin-left: 10px;
+	display: block;
+	float: left;
+}
+.xmal ul li{
+	padding-left: 14px;
+	color: #4B4B4B;
+	font-size: 12px;
+	line-height: 30px;
+	list-style: none;
+	background: url(../images/bluejt.jpg) no-repeat left;
+}
+.zd{
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.zd .xq{
+	float: right;
+}
+.imgs .a{
+	margin-left:0px;
+}
+.imgs img{
+	margin-left: 10px;
+}
+/*这是main_新闻中心,项目案例样式结束*/
+
+/*这是资质荣誉，媒体聚焦样式开始*/
+.zzmt{
+	width: 1000px;
+	height: 274px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	border-radius: 10px;
+}
+.l{
+	width: 541px;
+	height: 274px;
+	float: left;
+}
+.zzmt .tupian{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.zzmt .tupian img{
+	margin-right:10px; 
+	vertical-align: middle;
+}
+.r{
+	width: 423px;
+	height: 274px;
+	float: right;
+	margin-right: 10px;
+}
+.r_top img{
+	margin-top: 10px;
+	padding: 3px;
+	border: 1px solid #ccc;
+	display: block;
+	float: left;
+}
+.r_top .zh{
+	padding: 10px;
+	margin-left: 10px;
+	color: #0053A7;
+	font-weight: bold;
+	font-size: 12px;
+}
+.r_top .z{
+	line-height: 25px;
+	text-indent: 2em;
+	font-size: 12px;
+}
+.r_top .wza{
+	padding-left: 128px;
+}
+.r ul{
+	margin-left: 4px;
+}
+.r ul li{
+	padding-left: 16px;
+	background: url(../images/bluejt.jpg) no-repeat left;
+	line-height: 30px;
+	font-size: 12px;
+	list-style: none;
+}
+/*这是资质荣誉，媒体聚焦样式结束*/
+
+/*这是友情链接样式开始*/
+.yqlj{
+	width: 1000px;
+	height: 120px;
+	margin: 0 auto;
+}
+.yqlj p{
+	font-size: 12px; 
+	color: #4B4B4B;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+/*这是友情链接样式结束*/
+
+/*这是footer样式开始*/
+.footer{
+	width: 100%;
+	height: 308px;
+	margin: 0 auto;
+	background: #EDEDED;
+	border-top: 8px solid #ccc;
+}
+.footer_main{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer_top{
+	width: 1000px;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+.one{
+	width: 100px;
+	height: 170px;
+	float: left;
+	/*padding-right: 20px;*/
+}
+.one h3{
+	border-bottom: 1px solid #ccc;
+	padding-left: 20px;
+	width: 270px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #212121;
+}
+.one ul{
+	padding-left: 20px;
+	border-right: 1px dashed #ccc; 
+	height: 170px;
+	margin-top: 16px;
+}
+.one ul li{
+	color: #656565;
+	font-size: 12px;
+	line-height: 24px;
+	list-style: none;
+}
+.two{
+	width: 80px;
+}
+.two h3,.two ul{
+	padding-left: 0;
+}
+.footer_left{
+	float: left;
+	width: 470px;
+	height: 276px;
+	margin-top: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.footer_left .copy,.footer_left .js{
+	font-size: 12px;
+	line-height: 26px;
+	color: #656565;
+}
+.footer_left .copy{
+	margin-top: 220px;
+}
+.footer_left .js span{
+	color: #FF0000;
+}
+
+.footer_right{
+	width: 530px;
+	height: 251px;
+	float: right;
+	margin-top: 44px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.footer_right img{
+	display: block;
+	margin-top: -40px;
+	margin-left: 90px;
+}
+.footer_right p{
+	text-align: right;
+	line-height: 30px;
+	font-size: 12px;
+	color: #2F2F2F;
+}
+.wzz{
+	margin-top: 20px;
+}
+.footer_right .a{
+	font-size: 16px;
+	color: #656565;
+}
+.footer_right .a span{
+	color: #FB2D2D;
+	font-size: 18px;
+}
+.footer_right span{
+	float: right;
+	color: #656565;
+	font-size: 12px;
+}
+.footer_right .wzdt{
+	color: #29A5E1;
+	padding-right: 20px;
+}
+.footer_right .banquan{
+	margin-top: 40px;
+}
+.fenxiang{
+	position: fixed;
+	right: 0;
+	top: 50%;
+}
+/*这是footer样式结束*/
