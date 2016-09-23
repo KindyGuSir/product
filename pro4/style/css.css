@@ -1,0 +1,490 @@
+body,h2,h3,ul,p{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{
+	clear: both;
+	content: '';
+	display: block;
+}
+/*这是TOP样式开始*/
+.topbj{
+	width: 100%;
+	height: 4px;
+	background: #F08D18;
+}
+.top{
+	margin: 0 auto;
+	width: 1140px;
+	height: 94px;
+}
+.top .dl{
+	padding-right: 80px;
+	background: url(../images/qq.jpg) no-repeat right;
+	margin-top: 16px;
+	text-align: right;
+	float: right;
+}
+.top .dl .d{
+	color: #EF8D18;
+}
+.top span{
+	border-right: 1px solid #4B4A48;
+	padding-left: 13px;
+	padding-right: 13px;
+	font-size: 12px;
+	color: #4B4A48; 
+}
+.top .bz{
+	border: none;
+}
+.phone {
+	font-weight: bold;
+	font-family: Arial;
+	padding-left: 30px;
+	color: #272727;
+	background: url(../images/phone.jpg) no-repeat left;
+	line-height: 25px;
+	height: 25px;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	clear: right;
+	margin-top: 20px;
+}
+/*这是TOP样式结束*/
+
+/*这是导航样式开始*/
+.daohang{
+	width: 100%;
+	height: 52px;
+	background: #4B4A48;
+}
+.daohangwz{
+	line-height: 52px;
+	width: 1140px;
+	margin: 0 auto;
+}
+.daohangwz a{
+	color: #fff;
+	text-decoration: none;
+}
+.daohangwz li:hover{
+	background: url(../images/daohanghover.jpg) no-repeat right;
+}
+.daohangwz ul li{
+	width: 110px;
+	height: 52px;
+	list-style: none;
+	float: left;
+	text-align: center;
+	padding-left: 14px;
+}
+/*这是导航样式结束*/
+
+/*这是banner样式开始*/
+.banner{
+	width: 1440px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner .bn{
+	display: none;
+}
+/*这是banner样式结束*/
+
+/*这是表单样式开始*/
+.biaodan{
+	position: absolute;
+	top:18px;
+	left:150px;
+}
+.biaodan .none{
+	display: none;
+}
+.biaoti{
+	font-family: "微软雅黑";
+	width: 370px;
+	height: 51px;
+}
+.bd{
+	margin-left: 100px;
+	background: #fff;
+	border: 3px solid #4B4A48;
+	border-top: none;
+	width: 370px;
+	height: 310px;
+}
+.bd h2{
+	font-size: 16px;
+}
+.bd .zx,.bd .cx{
+	cursor: pointer;
+	float: left;
+	width: 179px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+}
+.bd .zx{
+	border-top: 3px solid #4B4A48;
+	border-right: 3px solid #4B4A48;
+}
+.bd .cx{
+	width: 188px;
+	border-bottom: 3px solid #4B4A48;
+	background: #CCCCCC;
+}
+.bd span{
+	font-size: 12px;
+}
+.bd select{
+	color: #656565;
+	font-size: 12px;
+}
+.o1,.o2,.o3,.o4{
+	margin-left: 4px;
+	margin-top: 30px;
+}
+.bd h3{
+	margin-left: 110px;
+	margin-top: 10px;
+	width: 132px;
+	height: 35px;
+	font-size: 16px;
+	color: #fff;
+	background: #F08D18;
+	text-align: center;
+	line-height: 35px;
+}
+/*这是表单样式结束*/
+
+/*这是main_top样式开始*/
+.main_top{
+	width: 1140px;
+	height: 250px;
+	margin: 20px auto;
+}
+.main_t{
+	text-align: right;
+	width: 820px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #4B4A48;
+}
+.hot{
+	color: #EF8D18;
+	font-weight: normal;
+	font-size: 20px;
+	float: left;
+}
+.more{
+	font-size: 12px;
+	color: #272727;
+}
+.tupian ul{
+	margin-top: 20px;
+}
+.tupian img{
+	border: 1px solid #ccc;
+}
+.tupian .new{
+	position: absolute;
+	width: 39px;
+	height: 43px;
+	top:0;
+	left: 0;
+	background: url(../images/new.jpg);
+}
+.tupian ul li{
+	position: relative;
+	list-style: none;
+	color: #333;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  width: 250px;
+}
+.tupian .weight{
+	font-weight: bold;
+}
+.tupian .a,.tupian .b{
+	margin-left: 36px;
+}
+.left{
+	float: left;
+	height: 269px;
+	width: 830px;
+}
+
+.right{
+	width: 310px;
+	height: 240px;
+	float: right;
+}
+.main_r{
+	text-align: right;
+	width: 310px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #4B4A48;
+}
+.zero{
+	width: 306px;
+	height: 200px;
+	color:#fff;
+}
+.zero_top{
+	margin-top: 15px;
+	width: 306px;
+	height: 130px;
+}
+.zero_top .right_one{
+	width: 133px;
+	height: 130px;
+	text-align: center;
+	line-height: 130px;
+	background: #F8931F;
+	float: left;
+}
+.zero_top .right_two{
+	margin-left: 5px;
+	width: 166px;
+	height: 62px;
+	text-align: center;
+	line-height: 62px;
+	float: left;
+	background: #F15A25;
+}
+.zero_top .right_three{
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 166px;
+	height: 62px;
+	text-align: center;
+	line-height: 62px;
+	float: left;
+	background: #01A89E;
+}
+.zero_bottom{
+	width: 306px;
+	height: 63px;
+}
+.zero_bottom .right_four,.zero_bottom .right_five{
+	text-align: center;
+	line-height: 63px;
+	width: 80px;
+	height: 63px;
+	float: left;
+	background: #01A89E;
+	margin-top: 5px;
+}
+.zero_bottom .right_five{
+	margin-left: 5px;
+	margin-right: 5px;
+	background: #F15A25;
+}
+.zero_bottom .right_six{
+	margin-top: 5px;
+	width: 135px;
+	height: 63px;
+	float: left;
+	background: #F8931F;
+	text-align: center;
+	line-height: 63px;
+}
+/*这是main_top样式结束*/
+
+/*这是制定行程样式开始*/
+.xc{
+	width: 1140px;
+	height: 72px;
+	margin: 0 auto;
+	border:1px solid #ccc;
+}
+.z{
+	margin-left: 14px;
+	float: left;
+	width: 365px;		
+	height: 70px;
+	background: url(../images/youjiantou.jpg) no-repeat right;
+}
+.z .zd{
+	font-weight: normal;
+	font-size: 18px;
+	color: #272727;
+	/*line-height: 40px;*/
+	padding-top: 12px;
+}
+.z .time{
+	font-size: 12px;
+	color: #4B4947;
+}
+.z .one{
+	margin-right: 10px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #F08D18;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 24px;
+	float: left;
+	margin-left: 92px;
+	margin-top: 12px;
+}
+.zz{
+	background: none;
+}
+/*这是制定行程样式结束*/
+
+/*这是特惠活动样式开始*/
+.thhd{
+	width: 1140px;
+	height: 340px;
+	margin: 20px auto;
+}
+.thhd_left{
+	width: 830px;
+	height: 340px;
+	float: left;
+}
+.all{
+	width: 830px;
+}
+.five .zx{
+	margin: 12px 22px 0 0;
+}
+.five li{
+	list-style: none;
+	float: left;
+  font-size: 12px;
+  text-align: center;
+  width: 250px;
+  margin:12px;
+  color: #272727;
+}
+.thhd_right{
+	width: 310px;
+	height: 300px;
+	float: right;
+	background: url(../images/yinyingcar.jpg) no-repeat right bottom;
+}
+.thhd_right ul{
+	margin-top: 10px;
+}
+.thhd_right ul li{
+	list-style: none;
+	color: #272727;
+	font-size: 12px;
+	line-height: 30px;
+}
+/*这是特惠活动样式结束*/
+
+/*这是热点链接样式开始*/
+.rdlj{
+	width: 1140px;
+	height: 80px;
+	margin: 0 auto;
+}
+.main_both{
+	border-bottom: 2px solid #4b4a48;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  width: 1440px;
+}
+.zj{
+	height: 46px;
+	line-height: 46px;
+}
+.zj span{
+	font-size: 12px;
+	color: #272727;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #999;
+}
+.zj .fw{
+	padding-left: 0;
+}
+.zj .bk{
+	border-right: none;
+}
+/*这是热点链接样式结束*/
+
+/*这是footer区域样式开始*/
+.footer{
+	width: 100%;
+	height: 280px;
+	background: #4B4A48;
+}
+.footer_top{
+	width: 100%;
+	height: 6px;
+	background: #F08D18;
+}
+.footer_center{
+	border-bottom: 1px solid #ccc;
+	width: 1140px;
+	height: 150px;
+	margin: 0 auto;
+	background: url(../images/erweima.jpg) no-repeat right 20px;
+}
+.wenzi{
+	margin-top: 18px;
+	float: left;
+	width: 173px;
+	height: 118px;
+	color: #fff;
+	font-size: 12px;
+}
+.wenzi ul li{
+	list-style: none;
+	line-height: 30px;
+}
+.f{
+	width: 300px;
+}
+.wenzi .big{
+	font-size: 16px;
+}
+.copy{
+	width: 1140px;
+	height: 64px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #EF8D18; 
+}
+.copy .xxx{
+	line-height: 64px;
+	color: #fff;
+	font-size: 12px;
+	float: left;
+}
+.copy .a{
+	padding-left: 50px;
+}
+.copy .b{
+	line-height: 64px;
+	font-size: 12px;
+	color: #fff;
+	text-align: right;
+}
+.copy .b span{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.copy .b .zztj{
+	padding-right: 0;
+}
+.yqlj{
+	width: 1140px;
+	margin: 0 auto;
+	height: 58px;
+	line-height: 58px;
+	color: #fff;
+	font-size: 12px;
+}
+/*这是footer区域样式结束*/
