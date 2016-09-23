@@ -1,0 +1,358 @@
+body,p,div,span,h2,ul,h3,span{
+	margin: 0;
+	padding: 0;
+}
+/*这是TOP样式开始*/
+body{
+	background: #eee;
+}
+.all{
+	width: 100%;
+}
+.top{
+	background: url(../images/top1.jpg) repeat;
+	height: 132px;
+	border-bottom: 2px solid #000;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main .r1{
+	float: right;
+	margin-right: 20px;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*这是TOP样式结束*/
+
+/*这是导航样式开始*/
+.daohang{
+	width: 100%;
+	height: 48px;
+	background: #175694;
+}
+.wz{
+	margin: 0 auto;
+	width: 1000px;
+}
+.wz a{
+	text-decoration: none;
+	color: #fff;
+	font: 14px "微软雅黑";
+	line-height: 48px;
+}
+.wz .a{
+	padding-right: 20px;
+	padding-left:20px; 
+	background: url(../images/daohangbj.png) no-repeat;
+}
+.wz .b{
+	margin-left: 15px;
+	margin-right: 20px;
+}
+/*这是导航样式结束*/
+
+/*这是banner样式开始*/
+.banner{
+	padding: 4px;
+	width: 992px;
+	margin: 18px auto;
+	background: url(../images/bannerbj.jpg) no-repeat;
+}
+/*这是banner样式结束*/
+
+/*这是快速导航样式开始*/
+.ksdh{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	background: #fff;
+}
+.ksdh .ks{
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	width: 117px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	background: url(../images/ksdaohang.jpg) no-repeat;
+}
+.ksdh ul li{
+	float: left;
+	list-style: none;
+	line-height: 40px;
+	padding-left: 15px;
+	font-size: 12px;
+}
+.ksdh span{
+	padding-left: 10px;
+}
+.ksdh a{
+	color: #404040;
+	text-decoration: none;
+}
+/*这是快速导航样式结束*/
+
+/*这是展品样式开始*/
+.zp{
+	width: 1000px;
+	margin: 28px auto;
+}
+.left{
+	width: 660px;
+	float: left;
+}
+.zp a{
+	color: #1B6BBF;
+	text-decoration: none;
+}
+.zpfw{
+	border-bottom:2px solid #1B6BBF;
+	padding-bottom: 8px;
+}
+.left h3{
+	margin-left: 8px;
+	float: left;
+	padding-left: 18px;
+	font-size: 16px;
+	color: #1B6BBF;
+	background: url(../images/zpfw.png) no-repeat left;
+}
+.left .more{
+	display: block;
+	float: right;
+	font-size: 16px;
+	color: #1B6BBF;
+}
+.left .first{
+	color: #FF0000;
+	line-height: 25px;
+	font-size: 12px;
+	margin-top: 12px;
+	height: 25px;
+	background: #A3D1FF;
+}
+.left .one{
+	width: 120px;
+	height: 94px;
+	font-size: 12px;
+	line-height: 25px;
+	float: left;
+	color: #333333;
+}
+.left .two{
+	margin-left: 40px;
+	height: 94px;
+	font-size: 12px;
+	line-height: 25px;
+	float: left;
+	color: #333333;
+}
+.right{
+	width: 320px;
+	float: left;
+	margin-left: 16px;
+}
+.right h3{
+	margin-left: 10px;
+	float: left;
+	padding-left: 18px;
+	font-size: 16px;
+	color: #1B6BBF;
+	background: url(../images/zpdt.jpg) no-repeat left;
+}
+.right .more{
+	display: block;
+	float: right;
+	font-size: 16px;
+	color: #1B6BBF;
+}
+.zhdt{
+	padding-bottom: 30px;
+	border-bottom:2px solid #1B6BBF;
+}
+.right p{
+	padding-left: 10px;
+	background: url(../images/square.jpg) no-repeat left;
+	font-size: 12px;
+	line-height: 30px;
+}
+.right img{
+	margin-top: 35px;
+}
+/*这是展品样式结束*/
+
+/*这是展会风采样式开始*/
+.zhfc{
+	width: 1000px;
+	margin: 0 auto;
+}
+.zhfc a{
+	text-decoration: none;
+	color: #1B6BBF;
+}
+.zhfc h3{
+	float: left;
+	background: url(../images/zhfcbj.jpg) no-repeat left;
+	padding-left: 22px;
+	font-size: 16px;
+	color: #1B6BBF;
+}
+.zc{
+	width: 1000px;
+	margin: 0 auto;
+}
+.zhfc{
+	margin-bottom: 22px;
+	border-bottom:2px solid #1B6BBF;
+	padding-bottom: 25px;
+}
+.zhfc .more{
+	display: block;
+	font-size: 16px;
+	color: #1B6BBF;
+	float: right;
+}
+.zc ul li{
+	color: #333;
+	text-align: center;
+	font-size:12px;
+	width: 160px;
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+.zc ul{
+	margin-left: 40px;
+}
+.zc a{
+	float: left;
+}
+.zc .b{
+	float: right;
+}
+/*这是展会风采样式结束*/
+
+/*这是展会风采区域下部BANNER样式开始*/
+.bn{
+	padding-top: 18px;
+	border-top: 1px solid #fff;
+	width: 1000px;
+	margin: 0 auto;
+}
+/*这是展会风采区域下部BANNER样式结束*/
+
+/*这是三小块样式开始*/
+.three{
+	width: 1000px;
+	margin: 28px auto;
+}
+.three .one{
+	border: 1px solid #fff;
+	width: 320px;
+	height: 233px;
+	float: left;
+}
+.three .o1{
+	border-bottom: 2px solid #1B6BC0;
+	height: 42px;
+	line-height: 42px;
+}
+.three h3{
+	height: 42px;
+	line-height: 42px;
+	float: left;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #1B6BBF;
+	background: url(../images/cgal.jpg) no-repeat left;
+}
+.three a{
+	float: right;
+	text-decoration: none;
+	color: #1B6BC0;
+	font-weight: normal;
+}
+.three li{
+	margin-left: 10px;
+	list-style: none;
+	font-size: 12px;
+	color: #333333;
+	line-height: 30px;
+	background: url(../images/sanjiao.jpg) no-repeat left;
+	padding-left: 10px;
+}
+.one1{
+	border: 1px solid #fff;
+	width: 320px;
+	height: 233px;
+	float: left;
+	margin:0 12px;
+}
+.one1 .gk{
+	background: url(../images/gjhgk.jpg) no-repeat left;
+}
+.one1 .tp{
+	float: left;
+	padding: 10px;
+	display: inline-block;
+}
+.one1 p{
+	line-height: 25px;
+	text-indent: 2em;	
+	font-size: 12px;
+	color: #333333;
+}
+/*这是三小块样式结束*/
+
+/*这是底部样式开始*/
+.footer{
+	width: 100%;
+	height: 147px;
+	background: url(../images/footerbj.jpg) repeat;	
+}
+.footer .center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer ul li{
+	font-size: 12px;
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 34px;
+	color: #fff;
+	border-left: 1px solid #fff;
+}
+.footer .a{
+	border: none;
+}
+.footer .dl{
+	margin-left: 176px;
+	margin-bottom: 27px;	
+}
+.footer p{
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+.footer .tj{
+	margin-left: 42px;
+}
+.footer .sy{
+	border: none;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+/*这是底部样式结束*/
