@@ -1,0 +1,410 @@
+body,p,div,h2,ul,h3,li,dl,dt,dd,input{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*这是TOP样式开始*/
+.top{
+	width: 100%;
+	height: 40px;
+	background: url(../images/top.jpg) repeat;
+}
+.top_t{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top_r{
+	padding-top: 12px;
+	float: right;
+	color: #fff;
+	font-size:12px; 
+}
+.top_r .b,.top_r .c{
+	margin-right: 15px;
+}
+
+.top_btm{
+	float: right;
+	width: 183px;
+	border-bottom: 2px solid #FFB243;
+}
+.top_btm .a{
+	float: right;
+}
+/*这是TOP样式结束*/
+
+/*这是LOGO与导航样式开始*/
+.daohang{
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+}
+.daohang img{
+	padding-top: 25px;
+	float: left;
+	margin-right: 86px;
+}
+.daohang ul li{
+	width: 105px;
+	height: 100px;
+	text-align: center;
+	font-size: 16px;
+	list-style: none;
+	float: left;
+}
+.daohang .wz{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+.daohang a{
+	color: #000;
+}
+.daohang li:hover{
+	color: #fff;
+	background: url(../images/dhhover.jpg) no-repeat;
+}
+/*这是LOGO与导航样式结束*/
+
+/*banner样式开始*/
+.banner{
+	height: 455px;
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+	position: absolute;
+	top:0;
+	left: 50%;
+	margin-left: -720px;
+}
+/*banner样式结束*/
+
+/*这是三个盒子样式开始*/
+.father{
+	background: #F6F6F6;
+	height: 300px;
+	border-bottom:1px solid #ccc;
+}
+.three{
+/*	margin: 0 auto;  不知道为啥就莫名其妙对了*/
+	width: 100%;
+	position: absolute;
+	top:560px;
+	height: 300px;
+}
+.three_0{
+	width: 1000px;
+	margin: 0 auto;
+}
+.three_1{
+	float: left;
+	background: #fff;
+	width: 312px;
+	height: 300px;
+	font-size: 18px;
+	color: #434343;
+	text-align: center;
+	line-height: 80px;
+	margin-right:32px; 
+}
+.three .three_0 .m {
+	margin-right: 0px;
+}
+.three .wtbj{
+	padding: 40px;
+	width: 232px;
+	height: 134px;
+	background-color: #2361AD;
+}
+.three a{
+	color: #434343;
+	text-decoration: none;
+}
+.three .wtbj:hover{
+	background-image: url(../images/wlblue.png);
+	background: #fff;
+}
+
+/*这是三个盒子样式结束*/
+
+/*这是解决方案样式开始*/
+
+.jjfa{
+	height: 438px;
+}
+.jjfa_content{
+	width: 1000px;
+	height: 438px;
+	margin: 0 auto;
+}
+.jjfa_content .jjfa_top img{
+	display: inline-block;
+	float: right;
+	margin-top: 28px;
+}
+.jjfa_top{
+	height: 76px;
+	line-height: 76px;
+}
+.jjfa h3{
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	color: #2361AD;
+	line-height: 76px;
+}
+.jjfa .s{
+	font-size: 20px;
+	color: #999999;
+	line-height: 30px;
+	margin-left: 26px;
+}
+.jjfa .jt{
+	height: 334px;
+}
+.jjfa .hy,.jjfa .sf,.jjfa .zf,.jjfa .qt{
+	width: 65px;
+	height: 242px;
+	background: #00007F;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	float: left;
+	padding-top: 92px;
+	list-style: none;
+}
+.jjfa img{
+	display: block;
+	float: left;
+}
+.jjfa .wz{
+	margin-left: 16px;
+	list-style: none;
+	width: 390px;
+	height: 319px;
+	margin-right: 20px;
+	float: left;
+	line-height: 34px;
+	font-size: 12px;
+	color: #272727;
+}
+.jjfa .wz .time{
+	float: right;
+}
+.jjfa .sf{
+	background: #EE8800;
+	/*margin-left: -17px;*/
+}
+.jjfa .zf{
+	background: #7F7F00;
+}
+.jjfa .qt{
+	background: #2361AD;
+}
+/*这是解决方案样式结束*/
+
+
+/*这是新闻动态样式开始*/
+.xwdt{
+	height: 414px;
+	background: #F9F9F9;
+}
+.xwdt .center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.xwdt .jjfa_top{
+	height: 76px;
+	line-height: 76px;
+}
+.xwdt img{
+	display: inline-block;
+	float: right;
+	margin-top: 28px;
+}
+.xwdt h3{
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	color: #2361AD;
+	line-height: 76px;
+}
+.xwdt .s{
+	font-size: 20px;
+	color: #999999;
+	line-height: 30px;
+	margin-left: 26px;
+}
+
+.xwdt .six_1{
+	width: 474px;
+	height: 84px;
+	border-bottom: 1px dashed #ccc;
+}
+.xwdt .six_1 a{
+	text-decoration: none;
+	color: #777777;
+	font-size: 14px;
+}
+.xwdt .six_1 a:hover{
+	color: #2361AD;
+}
+.xwdt .six_1 .b{
+	font-size: 12px;
+	color: #777777;
+	padding-top: 18px;
+	line-height: 18px;
+}
+.xwdt .left{
+	float: left;
+} 
+.xwdt .right{
+	float: right;
+}
+.xwdt .six{
+	background: url(../images/xwdtbj.png) no-repeat center;
+}
+/*这是新闻动态样式结束*/
+
+/*这是合作伙伴样式开始*/
+.hzhb{
+	height: 163px;
+	border-bottom: 1px solid #ccc;
+}
+.hzhb .center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.hzhb .jjfa_top{
+	height: 76px;
+	line-height: 76px;
+}
+.hzhb .jjfa_top img{
+	display: inline-block;
+	float: right;
+	margin-top: 28px;
+}
+.hzhb h3{
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
+	color: #2361AD;
+	line-height: 76px;
+}
+.hzhb .s{
+	font-size: 20px;
+	color: #999999;
+	line-height: 30px;
+	margin-left: 26px;
+}
+.hzhb .five img{
+	float: left;
+	margin-right: 70px;
+}
+.hzhb .five .a{
+	margin-right:0;
+}
+/*这是合作伙伴样式结束*/
+
+/*这是footer_top样式开始*/
+.footer_top{
+	height: 188px;
+	background: url(../images/line.jpg) repeat;
+	border-bottom: 1px solid #ccc;
+}
+.footer_top .center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer_top h3{
+	padding-top: 22px;
+	font-size: 18px;
+	font-weight: normal;
+}
+.footer_top ul li{
+	font-size: 12px;
+	list-style: none;
+	line-height: 30px;
+}
+.footer_top .one,.footer_top .two,.footer_top .th{
+	float: left;
+	margin-right: 156px;
+}
+
+.footer_top .four{
+	float: left;
+}
+.footer_top .four .a{
+	padding-left: 20px;
+	background: url(../images/phone.jpg) no-repeat left;
+}
+.footer_top .four .b{
+	padding-left: 20px;
+	background: url(../images/mail.jpg) no-repeat left;
+}
+.footer_top .four .c{
+	padding-left: 20px;
+	background: url(../images/wei.jpg) no-repeat left;
+}
+/*这是footer_top样式结束*/
+
+/*这是footer_center样式开始*/
+.footer_center{
+	border-top: 1px solid #fff;
+	border-bottom: 2px solid #fff;
+	height: 76px;
+	background: url(../images/line1.jpg) repeat;
+}
+.footer_center .center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer_center h3{
+	font-size: 18px;
+	font-weight: normal;
+	float: left;
+	line-height: 30px;
+}
+.footer_center ul li{
+	list-style: none;
+	float: left;
+	line-height: 34px;
+	font-size: 12px;
+	color: #272727;
+	padding-right: 20px;
+}
+.footer_center .yqlj{
+	padding-top:18px; 
+}
+/*这是footer_center样式结束*/
+
+/*这是footer_bottom样式开始*/
+.footer_bottom{
+	height: 65px;
+	background: url(../images/footerbj.jpg) repeat;
+}
+.footer_bottom .center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer_bottom p{
+	font-size: 12px;
+	color: #9F9F9F;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+}
+.footer_bottom span{
+	padding-left: 23px;
+}
+.sss{
+	position: fixed;
+	right: 0;
+	top: 80%;
+}
+/*这是footer_bottom样式结束*/
