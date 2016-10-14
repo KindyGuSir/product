@@ -1,0 +1,925 @@
+/*全站导航*/
+#QZnav {min-width:1100px; background:#373737 url("http://image.gamersky.com/webimg15/qznav.jpg") center 0 no-repeat;}/*背景色*/
+#QZnav .topbar {width:1100px;}/*同上宽度统一*/
+#QZnav i {color:#595959;}/*分割线*/
+#QZnav .alik {color:#ccc;}/*链接文字色*/
+#QZnav .alik:hover,#QZnav .cur .alik {color:#fff;}/*链接hover色*/
+#QZnav .QZ-nav {display:none;}/*隐藏左侧导航*/
+
+/* TOP */
+.topnav1 .nav1 a{margin-right: 26px;}
+.topnav1 .nav1 a.cj{display: none;}
+.topnav1 .nav2 {padding-left:30px;}
+.topnav1 .nav2 a {margin-right:30px;}
+/* TOP 加1图标后*/
+/* .topnav1 .nav1 a{margin-right: 20px;}
+.topnav1 .nav2 {padding-left:24px;}
+.topnav1 .nav2 a {margin-right:23px;} */
+
+.Mid {min-height:1000px;}
+.Mid0 {width:1060px; height:auto;}
+.Mid0nav {padding:10px 0 0 2px; width:1058px; height:30px; font-family:'Microsoft YaHei'; border-bottom:1px solid #cecece; overflow:visible;}
+.Mid0nav a {float:left; margin-left:-2px; display:inline-block; width:auto; height:29px; line-height:28px; color:#000; font-size:14px; font-weight:bold; border:1px solid transparent;}
+.Mid0nav a span {padding:0 25px; border-right:1px solid #cecece;}
+.Mid0nav a:hover {text-decoration:none;}
+.Mid0nav a:hover,.Mid0nav a.cur {color:#e22203; border:1px solid #cecece; border-bottom:1px solid #f2f2f3; box-shadow:0 -5px 8px 0 rgba(206,206,206,0.3);}
+.Mid0nav a:hover span,.Mid0nav a.cur span {border-right:1px solid transparent;}
+.Mid0cont {margin:10px 0; width:1060px; height:246px; font-family:'Microsoft YaHei';}
+/*热门游戏*/
+.Mid0pic1 {margin-bottom:10px; width:1068px; height:68px;}
+.Mid0pic1 a {float:left; margin-right:10px; display:inline-block; width:168px; height:68px; overflow:hidden; position:relative;}
+.Mid0pic1 a .border {width:100%; height:100%; cursor:pointer; position:absolute; left:0; top:0;}
+.Mid0pic1 a .mask {padding:10px 5px 0; width:158px; height:58px; cursor:pointer; position:absolute; left:0; top:68px;}
+.Mid0pic1 a .mask div {width:158px; text-align:center;}
+.Mid0pic1 a .mask .tit {height:28px; line-height:28px; color:#fff; font-size:16px; font-weight:bold;}
+.Mid0pic1 a .mask .txt {height:20px; line-height:20px; color:#999; font-size:12px; font-family:SimSun;}
+.Mid0pic1 a:hover {text-decoration:none;}
+.Mid0pic1 a:hover .mask {top:0;}
+.Mid0pic2 {margin-bottom:8px; width:1080px; height:70px;}
+.Mid0pic2 a {float:left; margin-right:8px; display:inline-block; width:125px; height:70px; overflow:hidden; position:relative;}
+.Mid0pic2 a div {cursor:pointer; position:absolute; left:0; bottom:0;}
+.Mid0pic2 a .border {width:100%; height:100%;}
+.Mid0pic2 a .mask {width:100%; height:20px; background:#000; opacity:0.7; filter:alpha(opacity=60);}
+.Mid0pic2 a .txt {padding:0 5px; width:115px; height:20px; line-height:20px; text-align:center; color:#fff; font-size:12px; font-family:SimSun;}
+.Mid0pic2 a:hover {text-decoration:none;}
+.Mid0pic2 a:hover .txt {color:#fff;}
+.Mid0pic2 a:hover .border {}
+
+/*A-Z*/
+.Mid0cont .abcd {width:1060px; height:26px; line-height:26px; text-align:center;}
+.Mid0cont .abcd span {padding:5px 0; color:#000; font-size:14px; font-weight:bold;}
+.Mid0cont .abcd a {padding:5px 6px; color:#000; font-size:16px; font-weight:bold;}
+.Mid0cont .abcd a:hover,.Mid0cont .abcd a.cur {color:#e22203;}
+.Mid0cont .ABC {width:1060px; height:auto;}
+.Mid0cont .ABC .tit {margin-bottom:12px; padding-top:8px; width:1060px; height:12px; border-bottom:1px dotted #c6c4c5; overflow:visible;}
+.Mid0cont .ABC .tit .zm {float:left; width:24px; height:24px; line-height:24px; text-align:center; color:#eaeaec; font-size:20px; background:#282828;}
+.Mid0cont .ABC .tit .pg {float:right; padding:4px 0 0 3px; width:auto; height:20px; background:#f2f2f3; text-align:center;}
+.Mid0cont .ABC .tit .pg a {float:left; margin-left:5px; display:inline-block; width:16px; height:16px; line-height:16px; color:#282828; background:#c7c7c7;}
+.Mid0cont .ABC .tit .pg a:hover,.Mid0cont .ABC .tit .pg a.cur {color:#eaeaec; background:#282828;}
+.Mid0cont .ABC ul.like {width:1060px; height:auto;}
+.Mid0cont .ABC ul.like li {float:left; width:151px; height:26px; line-height:26px;}
+.Mid0cont .ABC ul.like li a {padding-left:9px; font-size:12px; font-family:SimSun; background:url("http://image.gamersky.com/webimg15/li1.gif") 0 3px no-repeat;}
+
+/*通用标题*/
+.Midtit {width:auto; height:36px;}
+.Midtit .tit {float:left; padding-left:23px; width:auto; height:26px; line-height:26px; color:#000; font-size:16px; font-family:'Microsoft YaHei'; background:url("http://image.gamersky.com/webimg15/tt.gif") no-repeat;}
+.Midtit .tit.pr_RYHT {background-position:0 -26px;}
+.Midtit .more {float:right; width:auto; height:26px; line-height:26px; color:#999; font-size:12px; font-family:SimSun;}
+.Midtit .more a {color:#777;}
+.Midtit .more a:hover {color:#e11d03;}
+
+.Mtit {margin:15px 0; width:auto; height:50px;}
+.Mtit .tit {float:left; padding-left:44px; width:auto; height:50px; line-height:48px; font-size:28px; font-family:'Microsoft YaHei';}
+.Mtit .tit {background:url("http://image.gamersky.com/webimg15/ttbg.png") no-repeat;}
+.Mtit .tit.pr_djdw {background-position:0 0;} /*单机电玩*/
+.Mtit .tit.pr_wlyx {background-position:0 -50px;} /*网络游戏*/
+.Mtit .tit.pr_sjyx {background-position:0 -100px;} /*手机游戏*/
+.Mtit .tit.pr_dmdh {background-position:0 -150px;} /*动漫动画*/
+.Mtit .tit.pr_kjyj {background-position:0 -200px;} /*科技硬件*/
+.Mtit .tit.pr_sjjd {background-position:0 -250px;} /*视觉焦点*/
+.Mtit .tit .tt1 {float:left; color:#e23703;}
+.Mtit .tit .tt2 {float:left; padding:0 10px; color:#000; font-size:40px;}
+.Mtit .tit .tt3 {float:left; color:#000;}
+.Mtit .like {float:right; width:auto; height:50px; line-height:50px;  font-size:16px; font-family:'Microsoft YaHei';}
+.Mtit .like span {float:left; padding:0 10px; color:#aaa; font-size:14px; font-family:SimSun;}
+.Mtit .like a {float:left; color:#333;}
+.Mtit .like a:hover {color:#e11d03;}
+
+/*****************第一区********************/
+.Mid1 {margin:10px 0 10px; width:1060px; height:auto;}
+/***左侧***/
+.Mid1_L {float:left; width:386px; height:auto;}
+/*幻灯片*/
+.list1 {z-index:1;opacity:1;}
+.list2,.list3,.list4,.list5,.list6,.list7,.list8,.list9,.list10 {z-index:0;opacity:0;}
+.Slides {margin-bottom:20px; width:386px; height:314px; background:#e2e2e3; border-bottom:1px solid #c9c9c9; position:relative;}
+.Slides ul.Bimg {width:386px; height:240px;}
+.Slides ul.Bimg li {width:386px; height:240px; position:absolute; left:0; top:0;}
+.Slides ul.Bimg li a {display:inline-block; width:386px; height:240px; overflow:hidden; position:relative;}
+.Slides ul.Bimg li a div {cursor:pointer; position:absolute; left:0; bottom:0;}
+.Slides ul.Bimg li a .mask {width:100%; height:90px; }
+.Slides ul.Bimg li a .txt {padding-left:10px; width:340px; height:34px; line-height:34px; color:#f2f2f3; font-size:16px; font-weight:bold; font-family:'Microsoft YaHei';}
+.Slides ul.Bimg li a .txt {text-shadow:1px 1px 1px #000; _filter:DropShadow(Color=#000000,OffX=1,OffY=1,Positive=1);}
+.Slides ul.Bimg li a:hover {text-decoration:none;}
+.Slides ul.Bimg li a:hover .txt {color:#fff;}
+.Slides a.btn {display:inline-block; width:34px; height:47px; position:absolute; top:98px; z-index:2; background:url("http://image.gamersky.com/webimg15/slide-btn.png") no-repeat;}
+.Slides a.btn.Lbtn {left:-34px; background-position:0 0; border-radius:0 5px 5px 0;}
+.Slides a.btn.Rbtn {right:-34px; background-position:-34px 0; border-radius:5px 0 0 5px;}
+.Slides a.btn.Lbtn:hover {background-position:0 -47px;}
+.Slides a.btn.Rbtn:hover {background-position:-34px -47px;}
+.Slides .focus-num {position:absolute; right:0; bottom:70px; z-index:2;}
+.Slides .focus-num {padding-right:10px; *padding-right:5px; display:inline-block; width:auto; height:auto; line-height:40px; color:#f2f2f3; font-size:18px; font-style:italic; font-family:'Microsoft YaHei';}
+.Slides .focus-num .current {color:#e13703; font-size:20px;}
+.Slides .focus-num:first-letter {font-size:30px;}
+.Slides .JinDu {width:386px; height:5px; background:#000;}
+.Slides .JinDu .tiao {width:0; height:5px; background:#e23703;}
+.Slides .Small {width:384px; height:69px; border-left:1px solid #c9c9c9; border-right:1px solid #c9c9c9; position:relative;}
+.Slides .Small div {position:absolute; bottom:0; left:0;}
+.Slides .Small .smlfd {width:96px; height:69px; background:#bbb;}
+.Slides .Small .Simg {width:800px; height:69px;}
+.Slides .Small .Simg a {float:left; padding-top:9px; display:inline-block; width:96px; height:60px; text-align:center;}
+/*幻灯广告*/
+.Slides .Slides_ad {width:100%; height:auto; position:absolute; left:0; top:0; z-index:10;}
+.Slides .Slides_ad .Slides_ad_top {width:100%; height:26px;}
+.Slides .Slides_ad .Slides_ad_top a {display:inline-block;}
+.Slides .Slides_ad .Slides_ad_con {width:386px; height:288px; position:relative;}
+.Slides .Slides_ad .Slides_ad_con a {display:inline-block; position:absolute;}
+.Slides .Slides_ad .Slides_ad_con a.like {width:386px; height:288px; background:url(#); left:0; top:0;}
+.Slides .Slides_ad .Slides_ad_con a.close {width:16px; height:16px; line-height:16px; font-size:16px; text-align:center; background:#fff; border:1px solid #000; right:0; bottom:0;}
+
+/*杂谈娱乐*/
+ul.Mid1L_img {width:399px; height:auto;}
+ul.Mid1L_img li {float:left; width:133px; height:85px;}
+ul.Mid1L_img li a {display:inline-block; width:120px; height:85px; text-align:center; overflow:hidden; position:relative;}
+ul.Mid1L_img li a div {cursor:pointer; position:absolute; left:0; bottom:0;}
+ul.Mid1L_img li a .border {width:100%; height:100%;}
+ul.Mid1L_img li a .mask {width:100%; height:20px; background:#000; opacity:0.7; filter:alpha(opacity=60);}
+ul.Mid1L_img li a .txt {padding:0 2px; width:118px; height:20px; line-height:20px; color:#f2f2f3; font-size:12px; font-family:SimSun;}
+ul.Mid1L_img li a:hover {text-decoration:none;}
+ul.Mid1L_img li a:hover .txt {color:#fff;}
+ul.Mid1L_img li a:hover .border {}
+ul.Mid1L_txt {padding-top:7px; width:386px; height:70px;}
+ul.Mid1L_txt li {float:left; padding:0 5px 0 18px; width:170px; height:24px; line-height:24px; background:url("http://image.gamersky.com/webimg15/li2.gif") 0 6px no-repeat;}
+/*热议话题*/
+.pictxt {margin:-5px 0 20px; width:386px; height:auto;}
+.pictxt .img {float:left; width:129px; height:121px;}
+.pictxt .img a {display:inline-block; width:115px; height:120px; overflow:hidden; position:relative;}
+.pictxt .img a div {width:9px; height:17px; cursor:pointer; background:url("http://image.gamersky.com/webimg15/ar.gif") no-repeat; position:absolute; right:0; top:8px;}
+.pictxt .con {float:left; width:257px; height:121px;}
+.pictxt .con .tit {width:257px; height:30px; line-height:30px; border-top:1px dotted #dddbdb;}
+.pictxt .con .tit a {color:#444; font-size:14px; font-weight:bold;}
+.pictxt .con .tit a:hover {color:#e11d03;}
+.pictxt .con .txt {margin-bottom:10px; width:257px; height:32px; line-height:16px; color:#777;}
+.pictxt .con .pd {width:257px; height:50px;}
+.pictxt .con .pd a {float:left; display:inline-block; width:120px; height:44px; text-align:center; border:1px solid #c6c6c6; border-radius:2px; box-shadow:0 44px 44px -5px rgba(0,0,0,0.1);}
+.pictxt .con .pd a .num {display:inline-block; width:98px; height:20px; line-height:20px; color:#262626; border-bottom:1px dotted #cecece; cursor:pointer;}
+.pictxt .con .pd a p {margin:0; padding:5px 0; cursor:pointer;}
+.pictxt .con .pd a:hover {text-decoration:none;}
+.pictxt .con .pd a.pin1 {margin-right:10px;}
+.pictxt .con .pd a.pin1 {color:#e23703;}
+.pictxt .con .pd a.pin2 {color:#0a83a6;}
+.pictxt .con .pd a.pin1:hover p {color:#e23703; text-decoration:underline;}
+.pictxt .con .pd a.pin2:hover p {color:#0a83a6; text-decoration:underline;}
+.pictxt .con .pd a .float {margin-left:40px;}
+.pictxt .tag {float:left; width:386px; height:32px; line-height:32px; color:#c3c4c6;}
+.pictxt .tag span {color:#888;}
+/*游民评测*/
+ul.YMPC {width:386px; height:auto;}
+ul.YMPC li.pic {width:386px; height:95px; border-bottom:1px solid #cecece;}
+ul.YMPC li.pic a {display:inline-block; width:386px; height:95px; position:relative;}
+ul.YMPC li.pic a div {cursor:pointer; position:absolute;}
+ul.YMPC li.pic a .mask {width:386px; height:95px; background:url("http://image.gamersky.com/webimg15/pm.png"); left:0; top:0;}
+ul.YMPC li.pic a .txt {width:270px; height:68px; line-height:20px; color:#fff; font-size:14px; text-shadow:1px 1px 1px #000; _filter:DropShadow(Color=#000000,OffX=1,OffY=1,Positive=1); left:12px; top:25px;}
+ul.YMPC li.pic a .txt span {display:inline-block; width:270px; height:26px; font-size:18px; font-weight:bold; font-family:'Microsoft YaHei'; overflow:hidden;}
+ul.YMPC li.pic a .pnum {width:72px; height:72px; line-height:72px; text-align:center; color:#fff; font-size:22px; font-weight:bold; font-family:'Microsoft YaHei';}
+ul.YMPC li.pic a .pnum {background:url("http://image.gamersky.com/webimg15/pf.png") no-repeat; right:11px; top:11px;}
+ul.YMPC li.pic a .pnum.n1,ul.YMPC li.pic a .pnum.n1-0 {background-position:0 0;}
+ul.YMPC li.pic a .pnum.n1-5 {background-position:-72px 0;}
+ul.YMPC li.pic a .pnum.n2,ul.YMPC li.pic a .pnum.n2-0 {background-position:-144px 0;}
+ul.YMPC li.pic a .pnum.n2-5 {background-position:-216px 0;}
+ul.YMPC li.pic a .pnum.n3,ul.YMPC li.pic a .pnum.n3-0 {background-position:-288px 0;}
+ul.YMPC li.pic a .pnum.n3-5 {background-position:-360px 0;}
+ul.YMPC li.pic a .pnum.n4,ul.YMPC li.pic a .pnum.n4-0 {background-position:-432px 0;}
+ul.YMPC li.pic a .pnum.n4-5 {background-position:-504px 0;}
+ul.YMPC li.pic a .pnum.n5,ul.YMPC li.pic a .pnum.n5-0 {background-position:-576px 0;}
+ul.YMPC li.pic a .pnum.n5-5 {background-position:-648px 0;}
+ul.YMPC li.pic a .pnum.n6,ul.YMPC li.pic a .pnum.n6-0 {background-position:-720px 0;}
+ul.YMPC li.pic a .pnum.n6-5 {background-position:-792px 0;}
+ul.YMPC li.pic a .pnum.n7,ul.YMPC li.pic a .pnum.n7-0 {background-position:-864px 0;}
+ul.YMPC li.pic a .pnum.n7-5 {background-position:-936px 0;}
+ul.YMPC li.pic a .pnum.n8,ul.YMPC li.pic a .pnum.n8-0 {background-position:-1008px 0;}
+ul.YMPC li.pic a .pnum.n8-5 {background-position:-1080px 0;}
+ul.YMPC li.pic a .pnum.n9,ul.YMPC li.pic a .pnum.n9-0 {background-position:-1152px 0;}
+ul.YMPC li.pic a .pnum.n9-5 {background-position:-1224px 0;}
+ul.YMPC li.pic a .pnum.n10 {background-position:-1296px 0;}
+ul.YMPC li.pic a:hover {text-decoration:none;}
+ul.YMPC li.lx0 {width:386px; height:55px;}
+ul.YMPC li.lx0 .img {float:left; padding-top:8px; width:72px; height:35px;}
+ul.YMPC li.lx0 .img a {display:inline-block;}
+ul.YMPC li.lx0 .con {float:left; padding-top:8px; width:185px; height:35px;}
+ul.YMPC li.lx0 .con .tit {width:180px; height:20px; line-height:17px;}
+ul.YMPC li.lx0 .con .tit a {color:#353535; font-size:13px; font-weight:bold; font-family:'Microsoft YaHei';}
+ul.YMPC li.lx0 .con .tit a:hover {color:#e11d03;}
+ul.YMPC li.lx0 .con .txt {width:180px; height:15px; line-height:15px; color:#666;}
+ul.YMPC li.lx0 .fenshu {float:left; padding:20px 0 0 10px; width:118px; height:33px; border-left:1px solid #e2e2e2;}
+ul.YMPC li.lx0 .fenshu .pf {float:left; background:url("http://image.gamersky.com/webimg15/pf.gif") no-repeat;} 
+ul.YMPC li.lx0 .fenshu .pf.jindu {padding-right:2px; width:80px; height:12px;} 
+ul.YMPC li.lx0 .fenshu .pf.tiao {width:0; height:10px; background-position:right -12px;} 
+ul.YMPC li.lx0 .fenshu .num {float:left; width:36px; height:14px; line-height:14px; text-align:center; font-size:13px; font-family:'Microsoft YaHei';}
+
+/***中间***/
+.Mid1_M {float:left; margin:0 22px; width:387px; height:auto;}
+.Mid1Mnav {width:387px; height:34px;}
+.Mid1Mnav a {float:left; margin-right:2px; display:inline-block; width:127px; height:32px; line-height:32px; text-align:center; color:#000; font-size:16px; font-family:'Microsoft YaHei'; background:#e5e5e5; border-top:2px solid #d0d0d0;}
+.Mid1Mnav a[href='javascript:;']:hover {text-decoration:none;}
+.Mid1Mnav a.cur {font-weight:bold; background:#f2f2f3; border-top:2px solid #555;}
+.Mid1Mcon {width:387px; height:auto; min-height:155px; max-height:876px;}
+ul.bgx {padding-top:11px; width:387px; height:111px; border-bottom:1px dotted #cecece;}
+ul.bgx li {width:387px; text-align:center;}
+ul.bgx li span{width:3px; display:inline-block;}
+ul.bgx li.h1 {margin-top:2px; height:22px; line-height:22px; font-size:18px; font-weight:bold; font-family:'Microsoft YaHei';}
+ul.bgx li.h2 {margin-bottom:6px; height:26px; line-height:26px;}
+ul.Ptxt {margin-bottom:10px; padding-top:10px; width:387px; height:auto;}
+ul.Ptxt.mid1R1 {height:135px;}
+ul.Ptxt li {width:387px; height:20px;}
+ul.Ptxt li.pic {height:112px; border-bottom:1px dotted #cecece;}
+ul.Ptxt li.pic .tit {float:left; width:387px; height:42px; line-height:42px;}
+ul.Ptxt li.pic .tit a {color:#262626; font-size:16px; font-weight:bold; font-family:'Microsoft YaHei';}
+ul.Ptxt li.pic .tit a:hover {color:#e11d03;}
+ul.Ptxt li.pic .img {float:left; width:122px; height:60px;}
+ul.Ptxt li.pic .img a {display:inline-block;}
+ul.Ptxt li.pic .txt {float:left; width:265px; height:60px; line-height:20px; color:#666;}
+ul.Ptxt li.li3 {height:27px; background-position:3px -2px;}
+ul.Ptxt li.li3 div {float:left; height:27px; line-height:24px;}
+ul.Ptxt li.li3 .txt {padding-left:15px; width:330px; font-size:14px;}
+ul.Ptxt li.li3 .time {width:42px; color:#999; text-align:right;}
+/*翻页*/
+.Home-Page {margin:1px auto 14px; width:auto; height:30px;}
+.Home-Page .page-turn {float:left; padding:0 5px; width:62px; height:30px;}
+.Home-Page .page-turn a {display:inline-block; width:50px; height:25px; text-indent:-999px; background:url("http://image.gamersky.com/webimg15/fy.gif") no-repeat; box-shadow:0 2px 5px 0 rgba(0,0,0,0.1);}
+.Home-Page .page-turn a.Pprev {float:left; background-position:0 0;}
+.Home-Page .page-turn a.Pnext {float:right; background-position:-50px 0;}
+.Home-Page .page-turn a.Pprev:hover {background-position:0 -50px; box-shadow:0 2px 5px 0 rgba(0,0,0,0.2);}
+.Home-Page .page-turn a.Pnext:hover {background-position:-50px -50px; box-shadow:0 2px 5px 0 rgba(0,0,0,0.2);}
+.Home-Page .page-turn a.Pprev.cur {background-position:0 -25px; cursor:default;}
+.Home-Page .page-turn a.Pnext.cur {background-position:-50px -25px; cursor:default;}
+.Home-Page .page-num {float:left; padding-top:7px; width:auto; height:26px;}
+.Home-Page .page-num a {float:left; margin:0 12px; display:inline-block; width:11px; height:11px; background:#e1e1e5; border-radius:2px; box-shadow:2px 3px 3px 0 rgba(0,0,0,0.3) inset;}
+.Home-Page .page-num a.cur {background:#333; box-shadow:0;}
+
+.Mid1Mtit {margin:10px 0 4px; width:auto; height:26px;}
+.Mid1Mtit .tit {float:left; width:auto; height:26px; line-height:26px; color:#000; font-size:16px; font-family:'Microsoft YaHei';}
+.Mid1Mtit .more {float:right; width:auto; height:26px; line-height:26px; font-size:12px; font-family:SimSun;}
+.Mid1Mtit .more a {margin-right:5px; color:#777;}
+.Mid1Mtit .more a:hover {color:#e11d03;}
+/*杂谈*/
+ul.ZTimgtxt {width:396px; height:auto;}
+ul.ZTimgtxt li.img {float:left; width:132px; height:134px;}
+ul.ZTimgtxt li.img a {display:inline-block; width:120px; height:125px; line-height:18px; overflow:hidden; position:relative;}
+ul.ZTimgtxt li.img a img {margin-bottom:5px;}
+ul.ZTimgtxt li.img a .border {width:100%; height:85px; position:absolute; left:0; top:0;}
+ul.ZTimgtxt li.img a:hover .border {}
+ul.ZTimgtxt li.txt {width:387px; height:26px;}
+ul.ZTimgtxt li.txt div {float:left; height:26px; line-height:26px;}
+ul.ZTimgtxt li.txt .like {width:337px;}
+ul.ZTimgtxt li.txt .like a {font-size:14px;}
+ul.ZTimgtxt li.txt .Several {width:50px; text-align:right; color:#777;}
+/*图赏*/
+ul.TSimgtxt {width:400px; height:231px;}
+ul.TSimgtxt li {float:left; width:200px; height:116px;}
+ul.TSimgtxt li a {display:inline-block; width:185px; height:102px; position:relative;}
+ul.TSimgtxt li a div {cursor:pointer; position:absolute; left:0; bottom:0;}
+ul.TSimgtxt li a .border {width:100%; height:100%;}
+ul.TSimgtxt li a .txt {padding:18px 3px 0; width:179px; height:26px; line-height:26px; color:#fff; text-align:center;}
+ul.TSimgtxt li a:hover {text-decoration:none;}
+ul.TSimgtxt li a:hover .txt {color:#fff;}
+ul.TSimgtxt li a:hover .border {}
+/*视频*/
+ul.SPimgtxt {margin-bottom:10px; width:396px; height:auto;}
+ul.SPimgtxt li {float:left; width:132px; height:138px;}
+ul.SPimgtxt li a {display:inline-block; width:120px; height:125px; line-height:18px; overflow:hidden; position:relative;}
+ul.SPimgtxt li a img {margin-bottom:5px;}
+ul.SPimgtxt li a .border {width:100%; height:85px; position:absolute; left:0; top:0;}
+ul.SPimgtxt li a:hover .border {}
+
+/***右侧***/
+.Mid1_R {float:left; margin-top:-5px; width:240px; height:auto; overflow:visible; position:relative;}
+.Mid1Rpic {width:240px; height:auto; border-bottom:1px solid #cfcfd1;}
+.Mid1Rpic a {display:inline-block; width:240px; height:85px; text-align:center; overflow:hidden; position:relative;}
+.Mid1Rpic a div {cursor:pointer; position:absolute;}
+.Mid1Rpic a .tab {padding-left:9px; width:69px; height:20px; line-height:20px; color:#fff; right:0; top:0;}
+.Mid1Rpic a .tab { background:url("http://image.gamersky.com/webimg15/tab.png") no-repeat;}
+.Mid1Rpic a .mask {width:240px; height:20px; line-height:20px; color:#f2f2f3; left:0; bottom:0;}
+.Mid1Rpic a:hover {text-decoration:none;}
+.Mid1Rpic a:hover .mask {color:#fff;}
+
+/*首页 最新单机游戏下载*/
+.down_img {margin-bottom:1px; width:240px; height:auto;}
+.Mid1Rtit {width:239px; height:20px; background:#eaeaec; border-left:1px solid #d0d0d2; border-bottom:1px solid #d0d0d2;}
+.Mid1Rtit div {float:left; height:20px; line-height:20px; color:#878789; border-right:1px solid #d0d0d2;}
+.Mid1Rtit .name {width:156px; text-indent:8px;}
+.Mid1Rtit .type {width:37px; text-align:center;}
+.Mid1Rtit .time {width:43px; text-align:center;}
+
+ul.Mid1R_down {margin-bottom:15px; width:238px; height:239px; border:1px dotted #dbdbdb; border-top:0;}
+ul.Mid1R_down li {padding:0 8px; width:222px; height:30px;}
+ul.Mid1R_down li .li3 {width:5px; height:28px; position:absolute; left:-2px;}
+ul.Mid1R_down li .name {float:left; width:149px; height:29px; line-height:29px; border-bottom:1px dotted #cecece;}
+ul.Mid1R_down li .name a {color:#262626;}
+ul.Mid1R_down li .name a:hover {color:#e11d03;}
+ul.Mid1R_down li .type {float:left; margin:0 1px; width:35px; height:29px; line-height:29px; color:#666; text-align:center; border-bottom:1px dotted #cecece;}
+ul.Mid1R_down li .time {float:left; width:35px; height:29px; line-height:29px; color:#666; text-align:right; border-bottom:1px dotted #cecece;}
+ul.Mid1R_down li:hover .li3 {background-position:0 -28px;}
+ul.Mid1R_down li:hover div {color:#e11d03;}
+
+/*首页 独家专栏*/
+ul.Mid1R_txt {margin-bottom:15px; padding:5px 0; width:238px; height:auto; border-left:1px dotted #cecece; border-bottom:1px dotted #cecece; border-right:1px dotted #cecece;}
+ul.Mid1R_txt li.txt {padding:0 5px 0 8px; width:225px; height:26px; line-height:26px;}
+ul.Mid1R_txt li.txt .li3 {width:5px; height:28px; position:absolute; left:-2px;}
+ul.Mid1R_txt li.txt .t1 {float:left; margin-top:6px; width:53px; height:14px; line-height:14px; border-right:1px solid #4a4a4a;}
+ul.Mid1R_txt li.txt .t2 {float:left; margin-top:6px; padding-left:5px; width:166px; height:14px; line-height:14px;}
+ul.Mid1R_txt li.txt a {color:#262626;}
+ul.Mid1R_txt li.txt a:hover {color:#e11d03;}
+ul.Mid1R_txt li.txt:hover .li3 {background-position:0 -28px;}
+
+/*大作趋势*/
+ul.Mid1R_DZQS {margin:-9px 0 15px; width:240px; height:auto;}
+ul.Mid1R_DZQS li {padding-top:9px; width:240px; height:50px; border-bottom:1px dotted #cecece;}
+ul.Mid1R_DZQS li .img {float:left; width:78px; height:40px;}
+ul.Mid1R_DZQS li .img a {display:inline-block; width:70px; height:40px; overflow:hidden; position:relative;}
+ul.Mid1R_DZQS li .img a div {cursor:pointer; position:absolute; left:0; bottom:0;}
+ul.Mid1R_DZQS li .img a .mask {width:70px; height:14px; background:url(http://image.gamersky.com/webimg15/mk4.png) no-repeat}
+ul.Mid1R_DZQS li .img a .huo {width:70px; height:14px; line-height:14px; text-indent:15px; color:#f1f1ef; font-weight:bold; background-position:3px 0;}
+ul.Mid1R_DZQS li .img a:hover {text-decoration:none;}
+ul.Mid1R_DZQS li .con {float:left; width:162px; height:40px;}
+ul.Mid1R_DZQS li .con div {float:left; height:20px; line-height:20px; color:#262626;}
+ul.Mid1R_DZQS li .con .t2 {width:90px;}
+ul.Mid1R_DZQS li .con .t3 {width:72px; text-align:right;}
+ul.Mid1R_DZQS li .con .tag {width:162px; color:#ccccce;}
+ul.Mid1R_DZQS li .con .tag a {color:#888;}
+ul.Mid1R_DZQS li .con .tag a:hover {color:#e11d03;}
+
+ul.Mid1R_pic {width:240px; height:85px;}
+ul.Mid1R_pic li {width:240px; height:85px;}
+ul.Mid1R_pic li a {display:inline-block; width:240px; height:85px; position:relative;}
+ul.Mid1R_pic li a .tab {width:46px; height:30px; text-indent:-999px; cursor:pointer; background:url("http://image.gamersky.com/webimg15/hdzt.png") no-repeat; position:absolute; right:8px; top:8px;}
+ul.Mid1R_pic li a .tab.hd {background-position:0 0;}
+ul.Mid1R_pic li a .tab.zt {background-position:0 -30px;}
+ul.Mid1R_pic li a:hover .tab.hd {background-position:-46px 0;}
+ul.Mid1R_pic li a:hover .tab.zt {background-position:-46px -30px;}
+.Mid1Rnav {width:240px; height:10px; text-align:center;}
+.Mid1Rnav a {margin:0 2px; display:inline-block; width:25px; height:6px; text-indent:-999px; border-bottom:4px solid #c7c7c7;}
+.Mid1Rnav a:hover,.Mid1Rnav a.cur {border-bottom:4px solid #e23703;}
+
+/*****************第二区********************/
+.Mid2 {margin:0 0 10px -20px; padding:25px 20px 0; width:1060px; height:325px; background:#262626;}
+.Mid2 .Midtit .tit {color:#f2f2f3;}
+.Mid2 .Midtit .tit a {color:#f2f2f3;}
+.Mid2 .Midtit .tit a:hover {color:#fff;}
+.Mid2_L {float:left; width:410px; height:auto;}
+
+.Mid2Lpic {width:390px; height:auto;}
+.Mid2Lpic a {float:left; display:inline-block; text-align:center; overflow:hidden; position:relative;}
+.Mid2Lpic a div {cursor:pointer; position:absolute;}
+.Mid2Lpic a .sign {width:43px; height:43px; left:0; top:0;}
+.Mid2Lpic a .border {width:100%; height:100%; left:0; top:0;}
+.Mid2Lpic a .mask {width:100%; height:90px; left:0; bottom:0;}
+.Mid2Lpic a .play {opacity:0; filter:alpha(opacity=0); display:none\9; transition:opacity .2s ease-out;}
+.Mid2Lpic a .txt {width:100%; height:auto; line-height:20px; color:#fff; left:0; bottom:0;}
+.Mid2Lpic a .txt span {font-size:15px; font-family:'Microsoft YaHei';}
+.Mid2Lpic a.img1 {margin:0 5px 5px 0; width:92px; height:133px;}
+.Mid2Lpic a.img2 {width:190px; height:270px;}
+.Mid2Lpic a.img3 {margin:-133px 5px 0 0; width:189px; height:132px;}
+.Mid2Lpic a.img1 .play {width:38px; height:38px; background-position:0 0; left:27px; top:47px;}
+.Mid2Lpic a.img2 .play {width:56px; height:56px; background-position:0 -38px; left:66px; top:107px;}
+.Mid2Lpic a.img3 .play {width:56px; height:56px; background-position:0 -38px; left:66px; top:38px;}
+.Mid2Lpic a:hover {text-decoration:none;}
+.Mid2Lpic a:hover .txt {color:#fff;}
+.Mid2Lpic a:hover .play {zoom:1; opacity:1; filter:alpha(opacity=100); display:block\9;}
+.Mid2Lpic a:hover .border {}
+
+.Mid2_R {float:left; width:650px; height:auto;}
+.Mid2Rnav {float:right; padding-left:15px; width:485px; height:25px; border-bottom:1px solid #444; overflow:visible;}
+.Mid2Rnav a {float:left; margin-right:8px; padding:0 20px; display:inline-block; width:auto; height:24px; line-height:24px; color:#aaa; font-size:14px; font-family:'Microsoft YaHei';}
+.Mid2Rnav a {background:#161616; border:1px solid #444; border-bottom:0;}
+.Mid2Rnav a:hover {text-decoration:none;}
+.Mid2Rnav a:hover,.Mid2Rnav a.cur {color:#f2f2f3; background:#262626; border-bottom:1px solid #262626;}
+
+ul.Mid2Rpic {width:666px; height:288px;}
+ul.Mid2Rpic li {float:left; width:166px; height:144px;}
+ul.Mid2Rpic li a {display:inline-block; width:150px; height:124px; line-height:18px; color:#ccc; overflow:hidden; position:relative;}
+ul.Mid2Rpic li a img {margin-bottom:5px;}
+ul.Mid2Rpic li a .border {width:100%; height:83px; cursor:pointer; position:absolute; left:0; top:0;}
+ul.Mid2Rpic li a:hover {color:#fff;}
+ul.Mid2Rpic li a:hover .border {}
+
+
+/*****************第三区********************/
+.Mid3 {margin-bottom:10px; width:1060px; height:auto;}
+.Mid3_L {float:left; margin-right:25px; width:385px; height:auto;}
+.Mid3Limg {width:385px; height:205px;}
+.Mid3Limg a {display:inline-block; width:385px; height:190px; box-shadow:0 2px 10px 0 rgba(0,0,0,0.2); position:relative;}
+.Mid3Limg a div {width:385px; cursor:pointer; position:absolute; left:0; bottom:0;}
+.Mid3Limg a .border {width:100%; height:100%; top:0;}
+.Mid3Limg a .mask {height:90px;}
+.Mid3Limg a .txt {height:40px; line-height:40px; text-align:center; color:#f2f2f3; font-size:16px; font-family:'Microsoft YaHei';}
+.Mid3Limg a:hover {text-decoration:none;}
+.Mid3Limg a:hover .txt {color:#fff;}
+.Mid3Limg a:hover .border {}
+ul.Mid3Lpic_txt {width:385px; height:auto;}
+ul.Mid3Lpic_txt li {margin-top:-1px; width:385px; height:119px; border-top:1px dotted #cecece;}
+ul.Mid3Lpic_txt li .tit {float:left; width:385px; height:36px; line-height:36px;}
+ul.Mid3Lpic_txt li .tit a {color:#353535; font-size:15px; font-weight:bold; font-family:'Microsoft YaHei';}
+ul.Mid3Lpic_txt li .tit a:hover {color:#e11d03;}
+ul.Mid3Lpic_txt li .img {float:left; margin-right:16px; width:130px; height:73px; position:relative;}
+ul.Mid3Lpic_txt li .img a {display:inline-block;}
+ul.Mid3Lpic_txt li .img a .border {width:100%; height:100%; cursor:pointer; position:absolute; left:0; top:0;}
+ul.Mid3Lpic_txt li .img a:hover .border {}
+ul.Mid3Lpic_txt li .txt {float:left; width:239px; height:63px; line-height:20px; color:#555;}
+
+.Mid3_R {float:left; width:650px; height:auto;}
+.Mid3Rnav {float:right; width:auto; height:22px;}
+.Mid3Rnav a {float:left; margin-left:5px; padding:0 10px; display:inline-block; width:auto; height:20px; line-height:20px; color:#555; border:1px solid #c0c0c1; border-radius:2px;}
+.Mid3Rnav a:hover {color:#de3603;}
+ul.Mid3R_JQSS {margin-bottom:15px; width:650px; height:456px;}
+ul.Mid3R_JQSS li {margin-bottom:5px; width:647px; height:108px; border-left:3px solid #dedede; border-bottom:1px solid #cecece; position:relative;}
+ul.Mid3R_JQSS li img {float:right; margin-top:1px; height:106px; display:block;}
+ul.Mid3R_JQSS li .con {padding-left:10px; width:637px; height:108px; background:url("http://image.gamersky.com/webimg15/pn.png") 0 0 no-repeat; position:absolute; left:0; top:0;}
+ul.Mid3R_JQSS li .con .tit {margin-bottom:5px; width:450px; height:40px; line-height:40px; color:#598ea4;}
+ul.Mid3R_JQSS li .con .tit a {margin-right:10px; font-size:16px; font-weight:bold; font-family:'Microsoft YaHei';}
+ul.Mid3R_JQSS li .con .like {width:450px; height:20px; line-height:20px;}
+ul.Mid3R_JQSS li .con .tag {width:637px; height:24px; color:#8d8e90; background:#f9f9fa;}
+ul.Mid3R_JQSS li .con .tag .tag1 {float:left; width:170px; height:23px; line-height:23px;}
+ul.Mid3R_JQSS li .con .tag .tag1 a {color:#8d8e90;}
+ul.Mid3R_JQSS li .con .tag .tag1 a:hover {color:#e11d03;}
+ul.Mid3R_JQSS li .con .tag .tag2 {float:left; width:280px; height:23px; line-height:23px;}
+ul.Mid3R_JQSS li .con .tag .tag3 {float:left; padding-right:73px; width:114px; height:23px; line-height:23px;}
+ul.Mid3R_JQSS li .con .tag .tag3 a.zq {float:right; padding-right:24px; display:inline-block; width:auto; height:23px;}
+ul.Mid3R_JQSS li .con .tag .tag3 a.zq {background:url("http://image.gamersky.com/webimg15/zq.png") right 5px no-repeat;}
+ul.Mid3R_JQSS li a.links {display:inline-block; width:220px; height:85px; position:absolute; right:0; top:0;}
+ul.Mid3R_JQSS li:hover {border-left:3px solid #de3603;}
+ul.Mid3R_JQSS li:hover .con {background-position:0 -108px;}
+ul.Mid3R_JQSS li:hover .con .tag {background:#fff;}
+
+.Mid3R_L {float:left; margin-right:23px; width:385px; height:auto;}
+.Mid3RLnav {margin-bottom:18px; width:385px; height:36px;}
+.Mid3RLnav a {float:left; display:inline-block; width:94px; height:32px; line-height:32px; text-align:center; color:#262626; font-size:14px; font-family:'Microsoft YaHei';}
+.Mid3RLnav a {border-top:2px solid #f2f2f3; border-left:1px solid #f2f2f3; border-right:1px solid #f2f2f3;}
+.Mid3RLnav a:hover {text-decoration:none;}
+.Mid3RLnav a.cur {font-weight:bold; border-top:2px solid #444; border-left:1px solid #cecece; border-right:1px solid #cecece; border-bottom:2px solid #f2f2f3;}
+ul.Mid3RLpic_txt {margin-bottom:25px; width:385px; height:164px;}
+ul.Mid3RLpic_txt li {width:385px;}
+ul.Mid3RLpic_txt li.pic {height:auto;}
+ul.Mid3RLpic_txt li.pic div {float:left;}
+ul.Mid3RLpic_txt li.pic .img {width:100px; height:54px;}
+ul.Mid3RLpic_txt li.pic .img a {display:inline-block;}
+ul.Mid3RLpic_txt li.pic .tit {margin-bottom:6px; width:285px; height:24px; line-height:24px;}
+ul.Mid3RLpic_txt li.pic .tit a {font-size:16px; font-weight:bold; font-family:'Microsoft YaHei';}
+ul.Mid3RLpic_txt li.pic .tag {width:285px; height:20px; line-height:20px; color:#666;}
+ul.Mid3RLpic_txt li.pic .tag a {color:#666;}
+ul.Mid3RLpic_txt li.pic .tag a:hover {color:#e11d03;}
+ul.Mid3RLpic_txt li.li3 {height:27px; background-position:0 0;}
+ul.Mid3RLpic_txt li.li3 div {float:left; height:27px; line-height:27px;}
+ul.Mid3RLpic_txt li.li3 .txt {padding:0 10px 0 12px; width:330px; font-size:14px;}
+ul.Mid3RLpic_txt li.li3 .time {width:32px; color:#999;}
+/*精彩栏目*/
+.ui-topic {width:390px; height:160px; position:relative;}
+.ui-topic .ui-list {width:395px; height:165px; margin:-5px 0 0 -5px;}
+.ui-topic .ui-list:after,.ui-topic .ui-list:before {content:""; display:table; line-height:0;}
+.ui-topic .ui-list:after {clear:both;}
+.ui-topic .ui-item {float:left; _display:inline; margin:5px 0 0 5px; width:125px; height:78px; text-decoration:none; position:relative;}
+.ui-topic .ui-item div {cursor:pointer;}
+.ui-topic .ui-item .mk {padding-top:24px; width:100%; height:20px; line-height:20px; color:#fff; font-size:12px; text-align:center; position:absolute; left:0; bottom:0;}
+.ui-topic .ui-item .mk {background:url("http://image.gamersky.com/webimg15/mk2.png") 0 bottom repeat-x;}
+.ui-topic .ui-item .img1 {width:100%; height:100%;}
+.ui-topic .ui-item .img1 img {width:100%; height:100%;}
+.ui-topic .ui-item .img2 {width:100%; height:100%; position:absolute; top:0; left:0;}
+.ui-topic .ui-item .img2 img {width:100%; height:100%;}
+.ui-topic .ui-item:hover {text-decoration:none; color:#333;}
+.ui-topic .ui-item.is-active {width:255px; height:160px;}
+.ui-topic .ui-item.is-active .img1 {display:block;}
+.ui-topic .ui-item.is-active .img2 {display:none;}
+/*精彩视频*/
+.Mid3RLpic {width:390px; height:160px;}
+.Mid3RLpic a {float:left; display:inline-block; text-align:center; overflow:hidden; position:relative;}
+.Mid3RLpic a div {cursor:pointer; position:absolute;}
+.Mid3RLpic a .sign {width:43px; height:43px; left:0; top:0;}
+.Mid3RLpic a .border {width:100%; height:100%; left:0; top:0;}
+.Mid3RLpic a .mask {width:100%; height:44px; left:0; bottom:0;}
+.Mid3RLpic a .play {width:38px; height:38px; opacity:0; filter:alpha(opacity=0); display:none\9; transition:opacity .3s ease-out;}
+.Mid3RLpic a .txt {width:100%; height:auto; line-height:20px; color:#fff; left:0; bottom:0;}
+.Mid3RLpic a.img1 {margin-right:5px; width:125px; height:160px;}
+.Mid3RLpic a.img2 {margin:0 5px 5px 0; width:125px; height:78px;}
+.Mid3RLpic a.img3 {width:255px; height:77px;}
+.Mid3RLpic a.img1 .play {left:43px; top:61px;}
+.Mid3RLpic a.img2 .play {left:43px; top:20px;}
+.Mid3RLpic a.img3 .play {left:108px; top:19px;}
+.Mid3RLpic a:hover {text-decoration:none;}
+.Mid3RLpic a:hover .txt {color:#fff;}
+.Mid3RLpic a:hover .play {zoom:1; opacity:1; filter:alpha(opacity=100); display:block\9;}
+.Mid3RLpic a:hover .border {}
+
+.Mid3R_R {float:left; margin-top:-5px;padding-left:2px; width:240px; height:auto; position:relative;}
+.Mid3RRnav {width:240px; height:23px; border:1px solid #ceced0; border-right:0; overflow:visible;}
+.Mid3RRnav a {float:left; display:inline-block; height:23px; line-height:23px; text-align:center; color:#888; font-weight:bold; font-family:'Microsoft YaHei';}
+.Mid3RRnav a {background:#eaeaec; border-right:1px solid #ceced0;}
+.Mid3RRnav a.n1 {width:55px;}
+.Mid3RRnav a.n2 {width:70px;}
+.Mid3RRnav a.n3 {width:55px;}
+.Mid3RRnav a.n4 {width:55px;}
+.Mid3RRnav a:hover {text-decoration:none;}
+.Mid3RRnav a.cur {color:#000; background:#f2f2f4; border-bottom:1px solid #f2f2f4;}
+.Mid3RRtit {width:238px; height:34px; border:1px dotted #ceced0; border-top:0; border-bottom:0;}
+.Mid3RRtit div {float:left; height:34px; line-height:34px; color:#e13704;}
+.Mid3RRtit .name {width:158px; text-indent:8px;}
+.Mid3RRtit .type {width:36px; text-align:center;}
+.Mid3RRtit .time {width:44px; text-align:center;}
+/*游戏发售表*/
+ul.Mid3RR_FSB {width:238px; height:auto; border:1px dotted #ceced0; border-top:0;}
+ul.Mid3RR_FSB li {padding:0 8px; width:222px; height:29px;}
+ul.Mid3RR_FSB li .li3 {width:5px; height:28px; position:absolute; left:0;}
+ul.Mid3RR_FSB li .name {float:left; width:150px; height:29px; line-height:29px; border-top:1px dotted #cecece;}
+ul.Mid3RR_FSB li .name a {color:#262626;}
+ul.Mid3RR_FSB li .name a:hover {color:#e11d03;}
+ul.Mid3RR_FSB li .type {float:left; width:36px; height:29px; line-height:29px; color:#666; text-align:center; border-top:1px dotted #cecece;}
+ul.Mid3RR_FSB li .time {float:left; width:36px; height:29px; line-height:29px; color:#666; text-align:right; border-top:1px dotted #cecece;}
+ul.Mid3RR_FSB li:hover .li3 {background-position:0 -28px;}
+ul.Mid3RR_FSB li:hover div {color:#e11d03;}
+
+/*****************第四区********************/
+.Mid4 {margin-bottom:10px; width:1060px; height:auto;}
+.Mid4_L {float:left; margin-right:25px; width:385px; height:auto;}
+/*文字列表*/
+ul.Mid4Lpic_txt {margin-bottom:20px; width:385px; height:auto;}
+ul.Mid4Lpic_txt li {width:385px;}
+ul.Mid4Lpic_txt li.pic {height:auto;}
+ul.Mid4Lpic_txt li.pic div {float:left;}
+ul.Mid4Lpic_txt li.pic .img {width:100px; height:60px;}
+ul.Mid4Lpic_txt li.pic .img a {display:inline-block;}
+ul.Mid4Lpic_txt li.pic .tit {margin-bottom:6px; width:285px; height:24px; line-height:24px;}
+ul.Mid4Lpic_txt li.pic .tit a {font-size:16px; font-weight:bold; font-family:'Microsoft YaHei';}
+ul.Mid4Lpic_txt li.pic .tag {width:285px; height:20px; line-height:20px; color:#666;}
+ul.Mid4Lpic_txt li.pic .tag a {color:#666;}
+ul.Mid4Lpic_txt li.pic .tag a:hover {color:#e11d03;}
+ul.Mid4Lpic_txt li.li3 {height:26px; background-position:0 0;}
+ul.Mid4Lpic_txt li.li3 div {float:left; height:26px; line-height:26px;}
+ul.Mid4Lpic_txt li.li3 .txt {padding:0 10px 0 12px; width:330px; font-size:14px;}
+ul.Mid4Lpic_txt li.li3 .txt .tc {color:#262626;}
+ul.Mid4Lpic_txt li.li3 .txt a:hover .tc {color:#e11d03;}
+ul.Mid4Lpic_txt li.li3 .time {width:32px; color:#999;}
+
+.Mid4_R {float:left; width:240px; height:auto;}
+.Mid4Rmore {float:right; padding-top:5px; width:auto; height:19px; cursor:pointer;}
+.Mid4Rmore a {display:inline-block; width:auto; height:18px; line-height:18px; color:#888;}
+.Mid4Rmore a i {display:inline-block; width:26px; height:16px; vertical-align:middle; background:url("http://image.gamersky.com/webimg15/rot.png") center no-repeat;}
+.Mid4Rmore a:hover {text-decoration:none;}
+.Mid4Rmore a.cur i {transition:transform .5s ease-out; transform:rotate(360deg);}
+/*新游前瞻*/
+ul.XYQZ {margin:-11px 0 11px; width:240px; height:auto;}
+ul.XYQZ li {margin-top:-1px; padding-top:11px; width:240px; height:68px; border-top:1px dotted #cecece;}
+ul.XYQZ li .img {float:left; margin-right:11px; width:99px; height:55px; position:relative;}
+ul.XYQZ li .img a {display:inline-block;}
+ul.XYQZ li .img a .border {width:100%; height:100%; cursor:pointer; position:absolute; left:0; top:0;}
+ul.XYQZ li .img a:hover .border {}
+ul.XYQZ li .con {float:left; width:130px; height:55px;}
+ul.XYQZ li .con .tit {margin-bottom: 9px;width:130px; height:32px; line-height:16px;}
+ul.XYQZ li .con .tit a {color:#262626;}
+ul.XYQZ li .con .tit a:hover {color:#e11d03;}
+ul.XYQZ li .con .txt {width:120px; height:14px; line-height:14px; color:#8d8e90;}
+ul.XYQZ li .con .txt a {color:#8d8e90;}
+ul.XYQZ li .con .txt a:hover {color:#e11d03;}
+/*精彩栏目*/
+ul.YCLM {width:240px; height:auto;}
+ul.YCLM li {width:240px; height:82px;}
+ul.YCLM li a {float:left; display:inline-block; width:240px; height:77px; position:relative;}
+ul.YCLM li a .mk {padding:5px 14px; width:212px; height:67px; cursor:pointer; position:absolute; left:0; top:0; background:url("http://image.gamersky.com/webimg15/mk7.png") center no-repeat;}
+ul.YCLM li a .mk h3 {margin:0; height:18px; line-height:18px; color:#f2f2f3; font-size:12px; visibility:hidden;}
+ul.YCLM li a .mk p {margin:0; width:85px; line-height:18px; color:#f2f2f3; font-size:12px;}
+ul.YCLM li a .mk.m1 {background-position:-240px 0;}
+ul.YCLM li a .mk.m2 {background-position:90px -77px;}
+ul.YCLM li a .mk.m3 {background-position:-240px -154px;}
+ul.YCLM li a .mk.m2 h3 {text-align:right;}
+ul.YCLM li a .mk.m2 p {float:right; text-align:right;}
+ul.YCLM li a:hover {text-decoration:none;}
+ul.YCLM li a:hover .mk.m1 {background-position:0 0;}
+ul.YCLM li a:hover .mk.m2 {background-position:-150px -77px;}
+ul.YCLM li a:hover .mk.m3 {background-position:0 -154px;}
+ul.YCLM li a:hover .mk h3 {padding-top:18px; visibility:visible;}
+ul.YCLM li a:hover .mk p {width:212px;}
+/*热门网游*/
+ul.Mid4R_img {width:240px; height:166px; position:relative;}
+ul.Mid4R_img li {width:246px; height:166px; position:absolute; left:0; top:0;}
+ul.Mid4R_img li a {float:left; margin:0 5px 5px 0; display:inline-block; width:118px; height:78px; position:relative;}
+ul.Mid4R_img li a div {width:118px; position:absolute; left:0; bottom:0;}
+ul.Mid4R_img li a .border {width:100%; height:100%; cursor:pointer; position:absolute; left:0; top:0;}
+ul.Mid4R_img li a .mask {height:44px;}
+ul.Mid4R_img li a .txt {height:20px; line-height:20px; text-align:center; color:#f2f2f3;}
+ul.Mid4R_img li a:hover {text-decoration:none;}
+ul.Mid4R_img li a:hover .txt {color:#fff;}
+ul.Mid4R_img li a:hover .border {}
+
+/*****************第五区********************/
+.Mid5 {margin-bottom:10px; width:1060px; height:auto;}
+.Mid5_L {float:left; margin-right:25px; width:385px; height:auto;}
+/*杂谈周边*/
+.Mid5LSimg {width:400px; height:146px;}
+.Mid5LSimg a {float:left; margin-right:13px; display:inline-block; width:120px; height:131px; line-height:18px; overflow:hidden; position:relative;}
+.Mid5LSimg a img {margin-bottom:5px;}
+.Mid5LSimg a .border {width:100%; height:90px; cursor:pointer; position:absolute; left:0; top:0;}
+.Mid5LSimg a:hover .border {}
+.Mid5LBimg {width:400px; height:125px;}
+.Mid5LBimg a {float:left; margin-right:14px; display:inline-block; width:185px; height:105px; overflow:hidden; position:relative;}
+.Mid5LBimg a div {width:185px; cursor:pointer; position:absolute; left:0; bottom:0;}
+.Mid5LBimg a .border {width:100%; height:100%; cursor:pointer; position:absolute; left:0; top:0;}
+.Mid5LBimg a .mask {height:44px;}
+.Mid5LBimg a .txt {height:20px; line-height:20px; text-align:center; color:#f2f2f3;}
+.Mid5LBimg a:hover {text-decoration:none;}
+.Mid5LBimg a:hover .txt {color:#fff;}
+.Mid5LBimg a:hover .border {}
+/*美图欣赏*/
+.Mid5Lpic {width:390px; height:243px;}
+.Mid5Lpic a {float:left; display:inline-block; text-align:center; overflow:hidden; position:relative;}
+.Mid5Lpic a .mask {display:table; width:100%; height:100%; color:#fff; font-family:'Microsoft YaHei'; cursor:pointer; position:absolute; left:0;}
+.Mid5Lpic a .mask span {display:table-cell; width:100%; vertical-align:middle;}
+.Mid5Lpic a.img1 {margin-right:5px; width:185px; height:243px;}
+.Mid5Lpic a.img2 {margin-bottom:5px; width:195px; height:119px;}
+.Mid5Lpic a.img1 .mask {line-height:30px; font-size:16px; top:243px;}
+.Mid5Lpic a.img2 .mask {line-height:30px; font-size:16px; top:119px;}
+.Mid5Lpic a:hover {text-decoration:none;}
+.Mid5Lpic a:hover .mask {top:0;}
+
+.Mid5_R {float:left; width:240px; height:auto;}
+/*动漫专区*/
+.Mid5Rnav {float:right; margin-top:5px; width:auto; height:16px;}
+.Mid5Rnav a {float:left; margin-left:5px; display:inline-block; width:18px; height:14px; line-height:14px; text-align:center; color:#000; border:1px solid #cecece;}
+.Mid5Rnav a:hover {text-decoration:none;}
+.Mid5Rnav a:hover,.Mid5Rnav a.cur {color:#f2f2f3; background:#333; border:1px solid #333;}
+ul.Mid5R_DMZQ {margin-bottom:13px; width:240px; height:196px; border-top:1px solid #dbdbdb;}
+ul.Mid5R_DMZQ li {padding-top:7px; width:240px; height:57px; border-bottom:1px solid #e4e4e4;}
+ul.Mid5R_DMZQ li .img {float:left; width:77px; height:50px;}
+ul.Mid5R_DMZQ li .img a {display:inline-block;}
+ul.Mid5R_DMZQ li .con {float:left; width:102px; height:50px;}
+ul.Mid5R_DMZQ li .con .tit {width:102px; height:auto; max-height:34px; line-height:17px;}
+ul.Mid5R_DMZQ li .con .tit a {color:#262626;}
+ul.Mid5R_DMZQ li .con .tit a:hover {color:#e11d03;}
+ul.Mid5R_DMZQ li .con .txt {width:102px; height:16px; line-height:16px; color:#8d8e90;}
+ul.Mid5R_DMZQ li .like {float:left; width:60px; height:50px; text-align:center; border-left:1px dotted #cecece;}
+ul.Mid5R_DMZQ li .like a {padding-right:12px; width:auto; height:50px; line-height:50px; font-size:12px; font-weight:bold; background-position:right 2px;}
+
+/*热门漫画*/
+ul.Mid5R_img {margin-bottom:20px; width:245px; height:auto;}
+ul.Mid5R_img li.img1 {margin-bottom:5px; width:240px; height:95px;}
+ul.Mid5R_img li.img2 {float:left; margin-right:4px; width:118px; height:89px;}
+ul.Mid5R_img li.img1 a {width:240px; height:95px;}
+ul.Mid5R_img li.img2 a {width:118px; height:89px;}
+ul.Mid5R_img a {float:left; display:inline-block; overflow:hidden; position:relative;}
+ul.Mid5R_img a div {width:100%; cursor:pointer; position:absolute; left:0; bottom:0;}
+ul.Mid5R_img a .mask {height:44px;}
+ul.Mid5R_img a .txt {height:20px; line-height:20px; text-align:center; color:#f2f2f3;}
+ul.Mid5R_img a:hover {text-decoration:none;}
+ul.Mid5R_img a:hover .txt {color:#fff;}
+
+.MidRnav {width:239px; height:25px; text-align:center; border-left:1px solid #dcdada; border-bottom:1px solid #dcdada; overflow:visible;}
+.MidRnav a {float:left; display:inline-block; width:33px; height:23px; line-height:23px; color:#666; background:#eaeaec; border-top:2px solid #dcdada; border-right:1px solid #dcdada;}
+.MidRnav a:hover {text-decoration:none;}
+.MidRnav a:hover,.MidRnav a.cur {height:24px; color:#262626; font-weight:bold; background:#f2f2f3; border-top:2px solid #464b53;}
+ul.pic_list {width:240px; height:auto;}
+ul.pic_list li {width:240px; height:auto; border-bottom:1px dotted #dddbdb;}
+ul.pic_list li.txt {width:240px; height:30px;}
+ul.pic_list li.txt div {float:left; height:30px; line-height:30px;}
+ul.pic_list li.txt .t1 {width:180px; word-break:break-all; word-wrap:break-word; }
+ul.pic_list li.txt .t2 {padding-right:5px; width:55px; color:#818181; text-align:right;}
+ul.pic_list li.img {padding:8px 0; width:240px; height:auto;}
+ul.pic_list li.img .img_1 {float:left; width:57px; height:73px;}
+ul.pic_list li.img .img_1 a {display:inline-block;}
+ul.pic_list li.img .img_2 {float:left; width:183px; height:73px;}
+ul.pic_list li.img .img_2 div {width:183px; word-break:break-all; word-wrap:break-word;}
+ul.pic_list li.img .img_2 .img2_1 {margin-bottom:4px; height:18px; line-height:18px;}
+ul.pic_list li.img .img_2 .img2_2 {height:17px; line-height:17px; color:#e11d03;}
+ul.pic_list li.img .img_2 .img2_2 a {color:#e11d03;}
+ul.pic_list li.img .img_2 .img2_3 {height:17px; line-height:17px; color:#999898;}
+ul.pic_list li.img .img_2 .img2_4 {height:17px; line-height:17px;}
+ul.pic_list li.img .img_2 .img2_4 a {color:#999898;}
+ul.pic_list li.img .img_2 .img2_4 a:hover {color:#e11d03;}
+
+
+/***************** 手机游戏 ********************/
+.SJgame {width:1060px; height:auto;}
+.SJgame_L {float:left; margin-right:25px; width:385px; height:auto;}
+.SJgame_M {float:left; margin-right:25px; width:385px; height:auto;}
+.SJgame_M ul.Mid6L_txt {margin-bottom:20px;}
+.SJgame_R {float:left; width:240px; height:auto;}
+.SJgame_R ul.txt_pic {margin-bottom:36px;}
+
+/*新游情报*/
+ul.Mid6L_txt {margin-top:-2px; width:385px; height:auto;}
+ul.Mid6L_txt li.topline {width:385px; height:27px;}
+ul.Mid6L_txt li.topline div {float:left; height:26px; line-height:26px; font-weight:bold;}
+ul.Mid6L_txt li.topline .mark {padding-right:6px; width:37px; text-align:center; color:#e23703; background:url("http://image.gamersky.com/webimg15/mark.gif") center 0 no-repeat;}
+ul.Mid6L_txt li.topline .txt {padding-left:4px; width:338px;}
+ul.Mid6L_txt li.topline .txt a {color:#262626; font-size:14px;}
+ul.Mid6L_txt li.li3 {width:385px; height:27px; background-position:0 0;}
+ul.Mid6L_txt li.li3 div {float:left; height:27px; line-height:27px;}
+ul.Mid6L_txt li.li3 .txt {padding:0 10px 0 12px; width:330px; font-size:14px;}
+ul.Mid6L_txt li.li3 .time {width:32px; color:#999;}
+
+/*游戏评测 切换*/
+.SJgameMnav {float:left; margin-bottom:10px; padding-top:15px; width:385px; height:26px; border-bottom:1px solid #cecece; overflow:visible;}
+.SJgameMnav a {float:left; margin-right:8px; padding:0 30px; display:inline-block; width:auto; height:25px; line-height:25px; color:#636365; font-size:14px; font-family:'Microsoft YaHei';}
+.SJgameMnav a {background:#e5e5e5; border:1px solid #cecece; border-bottom:0; overflow:hidden;}
+.SJgameMnav a:hover {color:#e11d03; text-decoration:none;}
+.SJgameMnav a.cur {color:#000; font-weight:bold; background:#f2f2f3; border-bottom:1px solid #f2f2f3;}
+ul.SJgameMpic {width:400px; height:103px;}
+ul.SJgameMpic li.img {float:left; width:200px; height:103px;}
+ul.SJgameMpic li.img a {float:left; display:inline-block; width:185px; height:103px; position:relative;}
+ul.SJgameMpic li.img a div {width:100%; cursor:pointer; position:absolute; left:0; bottom:0;}
+ul.SJgameMpic li.img a .mask {height:44px;}
+ul.SJgameMpic li.img a .txt {height:20px; line-height:20px; text-align:center; color:#f2f2f3;}
+ul.SJgameMpic li.img a:hover {text-decoration:none;}
+ul.SJgameMpic li.img a:hover .txt {color:#fff;}
+ul.SJgameMpic li.li3 {width:385px; height:27px; background-position:0 0;}
+ul.SJgameMpic li.li3 div {float:left; height:27px; line-height:27px;}
+ul.SJgameMpic li.li3 div.txt {padding:0 10px 0 12px; width:330px; font-size:14px;}
+ul.SJgameMpic li.li3 div.time {width:32px; color:#999;}
+
+/*手游排行榜 切换*/
+.SJgameRnav {float:right; margin-top:3px; width:auto; height:20px;}
+.SJgameRnav a {float:left; display:inline-block; width:48px; height:18px; line-height:18px; text-align:center; color:#000; border:1px solid #888; overflow:hidden;}
+.SJgameRnav a:hover {text-decoration:none;}
+.SJgameRnav a.cur {color:#f2f2f3; background:#353535; border:1px solid #353535;}
+ul.txt_pic {margin-bottom:23px; width:240px; height:370px; border-top:1px solid #cecece;}
+ul.txt_pic li {width:240px; border-bottom:1px dotted #dddbdb;}
+ul.txt_pic li.txt {height:30px;}
+ul.txt_pic li.txt div {float:left; height:30px; line-height:30px;}
+ul.txt_pic li.txt .t1 {margin-right:2px; width:30px; text-align:center; color:#878787; font-size:14px; font-family:Arial;}
+ul.txt_pic li.txt .t2 {width:208px; word-break:break-all; word-wrap:break-word; font-size:14px; font-family:'Microsoft YaHei';}
+ul.txt_pic li.img {padding:12px 0; height:auto;}
+ul.txt_pic li.img .img_0 {float:left; margin-right:2px; width:30px; height:65px; line-height:65px; text-align:center; color:#333; font-size:26px; font-weight:bold; font-family:Arial;}
+ul.txt_pic li.img .img_1 {float:left; width:87px; height:65px;}
+ul.txt_pic li.img .img_1 a {display:inline-block; border-radius:7px;}
+ul.txt_pic li.img .img_1 img {border-radius:7px;}
+ul.txt_pic li.img .img_2 {float:left; width:121px; height:66px;}
+ul.txt_pic li.img .img_2 div {width:121px; word-break:break-all; word-wrap:break-word;}
+ul.txt_pic li.img .img_2 .img2_1 {margin-bottom:5px; height:16px; line-height:16px; word-break:break-all; word-wrap:break-word; font-size:14px; font-family:'Microsoft YaHei';}
+ul.txt_pic li.img .img_2 .img2_2 {margin-bottom:5px; height:16px; line-height:16px; color:#999898;}
+ul.txt_pic li.img .img_2 .img2_3 {height:24px;}
+ul.txt_pic li.img .img_2 .img2_3 a {display:inline-block; width:45px; height:18px; line-height:18px; text-align:center; color:#010101; border:1px solid #bebebe; border-radius:2px;}
+ul.txt_pic li.img .img_2 .img2_3 a {box-shadow:0 1px 5px 0 rgba(0,0,0,0.1);}
+ul.txt_pic li.img .img_2 .img2_3 a:hover {color:#e11d03; box-shadow:0 1px 5px 0 rgba(0,0,0,0.2);}
+/*热门专区 换一批*/
+.SJgameRmore {float:right; padding-top:5px; width:auto; height:19px; cursor:pointer;}
+.SJgameRmore a {display:inline-block; width:auto; height:18px; line-height:18px; color:#888;}
+.SJgameRmore a i {display:inline-block; width:26px; height:16px; vertical-align:middle; background:url("http://image.gamersky.com/webimg15/rot.png") center no-repeat;}
+.SJgameRmore a:hover {text-decoration:none;}
+.SJgameRmore a.cur i {transition:transform .5s ease-out; transform:rotate(360deg);}
+ul.SJgameRimg {width:240px; height:103px; position:relative;}
+ul.SJgameRimg li {width:255px; height:103px; position:absolute; left:0; top:0;}
+ul.SJgameRimg li a {float:left; margin-right:15px; display:inline-block; width:70px; height:103px; line-height:33px; text-align:center; background:#e5e5e5; border-radius:10px; overflow:hidden;}
+ul.SJgameRimg li a img {border-radius:10px;}
+ul.SJgameRimg li a:hover {background:#fff;}
+
+/*****************第六区********************/
+.Mid6 {width:1060px; height:auto;}
+.Mid6_L {float:left; margin-right:25px; width:795px; height:auto;}
+.Mid6L_L {float:left; margin-right:25px; width:385px; height:auto;}
+.Mid6L_R {float:left; width:385px; height:auto;}
+.Mid6_R {float:left; width:240px; height:auto;}
+
+/* 这段需要删除 开始 */
+.Mid6Lpic {float:left; margin-right:20px; width:390px; height:205px;}
+.Mid6Lpic a {float:left; display:inline-block; text-align:center; overflow:hidden; position:relative;}
+.Mid6Lpic a div {cursor:pointer; position:absolute; left:0;}
+.Mid6Lpic a .sign {width:43px; height:43px; top:0;}
+.Mid6Lpic a .border {width:100%; height:100%; top:0;}
+.Mid6Lpic a .mask {width:100%; height:44px; bottom:0;}
+.Mid6Lpic a .txt {width:100%; height:auto; line-height:20px; color:#f2f2f3; bottom:0;}
+.Mid6Lpic a.img1 {margin-right:5px; width:190px; height:205px;}
+.Mid6Lpic a.img2 {margin:0 5px 5px 0; width:190px; height:100px;}
+.Mid6Lpic a:hover {text-decoration:none;}
+.Mid6Lpic a:hover .txt {color:#fff;}
+.Mid6Lpic a:hover .border {}
+.Mid6Lnav {float:left; margin-bottom:10px; padding-top:18px; width:795px; height:26px; border-bottom:1px solid #cecece; overflow:visible;}
+.Mid6Lnav a {float:left; margin-right:8px; padding:0 30px; display:inline-block; width:auto; height:25px; line-height:25px; color:#636365; font-size:14px; font-family:'Microsoft YaHei'; background:#e5e5e5; border:1px solid #cecece; border-bottom:0; overflow:hidden;}
+.Mid6Lnav a:hover {color:#e11d03; text-decoration:none;}
+.Mid6Lnav a.cur {color:#000; font-weight:bold; background:#f2f2f3; border-bottom:1px solid #f2f2f3;}
+ul.Mid6Lpic_txt {margin-bottom:20px; width:805px; height:auto;}
+ul.Mid6Lpic_txt li {float:left; width:161px; height:138px;}
+ul.Mid6Lpic_txt li a {display:inline-block; width:150px; height:125px; line-height:18px; position:relative;}
+ul.Mid6Lpic_txt li a img {margin-bottom:5px;}
+ul.Mid6Lpic_txt li a .border {width:100%; height:84px; cursor:pointer; position:absolute; left:0; top:0;}
+ul.Mid6Lpic_txt li a:hover .border {}
+.Mid6Rnav {float:right; margin-top:3px; width:auto; height:20px;}
+.Mid6Rnav a {float:left; display:inline-block; width:48px; height:18px; line-height:18px; text-align:center; color:#000; border:1px solid #888; overflow:hidden;}
+.Mid6Rnav a:hover {text-decoration:none;}
+.Mid6Rnav a.cur {color:#f2f2f3; background:#353535; border:1px solid #353535;}
+/* 这段需要删除 结束 */
+
+ul.Mid6pic_txt {margin-bottom:10px; width:385px; height:auto;}
+ul.Mid6pic_txt li.img {width:385px; height:130px;}
+ul.Mid6pic_txt li.img a {display:inline-block; width:385px; height:120px; text-align:center; overflow:hidden; position:relative;}
+ul.Mid6pic_txt li.img a div {cursor:pointer; position:absolute; left:0; bottom:0;}
+ul.Mid6pic_txt li.img a .border {width:100%; height:100%;}
+ul.Mid6pic_txt li.img a .mask {width:100%; height:44px;}
+ul.Mid6pic_txt li.img a .txt {width:100%; height:28px; line-height:28px; color:#fff; font-size:14px; font-weight:bold;}
+ul.Mid6pic_txt li.img a:hover {text-decoration:none;}
+ul.Mid6pic_txt li.img a:hover .txt {color:#fff;}
+ul.Mid6pic_txt li.img a:hover .border {}
+ul.Mid6pic_txt li.txt {width:385px; height:30px;}
+ul.Mid6pic_txt li.txt div {float:left; height:30px; line-height:30px; font-size:14px;}
+ul.Mid6pic_txt li.txt .t1 {width:45px; color:#777;}
+ul.Mid6pic_txt li.txt .t1 a {color:#777;}
+ul.Mid6pic_txt li.txt .t1 a:hover {color:#e11d03;}
+ul.Mid6pic_txt li.txt .t2 {width:340px;}
+/* 调查 */
+ul.votelist {padding:0 10px; width:220px; height:244px; background:#f9f9fa; border-bottom:1px solid #dddbdc; position:relative;}
+ul.votelist li.tit {padding:8px 0; width:220px; height:auto; line-height:18px; font-weight:bold;}
+ul.votelist li.txt {width:220px; height:24px; line-height:24px;}
+ul.votelist li.txt input {width:14px; height:14px; vertical-align:middle;}
+ul.votelist li.txt label {width:auto; height:14px; line-height:14px;}
+ul.votelist li.btn {padding-top:5px; width:220px; height:40px; text-align:center; position:absolute; left:10px; bottom:0;}
+ul.votelist li.btn a {margin:0 5px; padding:0 20px; display:inline-block; width:auto; height:30px; line-height:30px; color:#010101; border:1px solid #bebebe; border-radius:2px;}
+ul.votelist li.btn a {font-size:14px; font-family:'Microsoft YaHei'; box-shadow:0 0 5px 0 rgba(0,0,0,0.1);}
+ul.votelist li.btn a:hover {color:#e11d03;}
+
+
+/*****************第七区********************/
+.Mid7 {margin-bottom:10px; width:1060px; height:auto;}
+.Map {width:1060px; height:auto;}
+.Map a {float:left; display:inline-block; text-align:center; overflow:hidden; position:relative;}
+.Map a .mask {display:table; width:100%; height:100%; line-height:30px; color:#fff; font-size:16px; font-family:'Microsoft YaHei'; cursor:pointer; position:absolute; left:0;}
+.Map a .mask span {display:table-cell; padding:0 10px; width:auto; height:auto; vertical-align:middle;}
+.Map a.img1 {margin:0 1px 1px 0; width:250px; height:313px;}
+.Map a.img2 {margin:0 1px 1px 0; width:277px; height:156px;}
+.Map a.img3 {margin:0 1px 1px 0; width:176px; height:156px;}
+.Map a.img4 {margin:0 1px 1px 0; width:353px; height:156px;}
+.Map a.img5 {margin-top:-157px; width:177px; height:313px;}
+.Map a.img1 .mask {top:313px; font-size:18px;}
+.Map a.img2 .mask {top:156px;}
+.Map a.img3 .mask {top:156px;}
+.Map a.img4 .mask {top:156px;}
+.Map a.img5 .mask {top:313px;}
+.Map a:hover {text-decoration:none;}
+.Map a:hover .mask {top:0;}
+
+.Mid7nav {float:left; margin-bottom:10px; padding-top:18px; width:1060px; height:26px; border-bottom:1px solid #cecece; overflow:visible;}
+.Mid7nav a {float:left; margin-right:8px; padding:0 25px; display:inline-block; width:auto; height:25px; line-height:25px; color:#636365; font-size:14px; font-family:'Microsoft YaHei'; background:#e5e5e5; border:1px solid #cecece; border-bottom:0; overflow:hidden;}
+.Mid7nav a:hover {color:#e11d03;text-decoration:none;}
+.Mid7nav a.cur {color:#000; font-weight:bold; background:#f2f2f3; border-bottom:1px solid #f2f2f3;}
+ul.Mid7img {margin-bottom:15px; width:1074px; height:auto;}
+ul.Mid7img li {float:left; width:134px; height:90px;}
+ul.Mid7img li a {display:inline-block; width:120px; height:90px; text-align:center; overflow:hidden; position:relative;}
+ul.Mid7img li a div {cursor:pointer; position:absolute; left:0; bottom:0;}
+ul.Mid7img li a .border {width:100%; height:100%;}
+ul.Mid7img li a .mask {width:100%; height:20px; background:#000; opacity:0.7; filter:alpha(opacity=60);}
+ul.Mid7img li a .txt {padding:0 2px; width:116px; height:20px; line-height:20px; color:#f2f2f3; font-size:12px; font-family:SimSun;}
+ul.Mid7img li a:hover {text-decoration:none;}
+ul.Mid7img li a:hover .txt {color:#fff;}
+ul.Mid7img li a:hover .border {}
+
+
+/*****************第八区********************/
+.Mid8 {margin-left:-20px; padding:25px 20px 40px; width:1060px; height:auto; background:#262626;}
+.Mid8tit {width:auto; height:40px; line-height:22px; color:#999; font-size:18px; font-family:'Microsoft YaHei';}
+.Mid8_L {float:left; margin-right:30px; width:319px; height:auto;}
+ul.PH {width:319px; height:auto;}
+ul.PH li.tit {width:321px; height:30px;}
+ul.PH li.tit div {float:left; margin-right:1px; height:27px; line-height:27px; background:#161616; border-top:1px solid #060606;}
+ul.PH li.tit .t1 {width:32px; text-align:center;}
+ul.PH li.tit .t2 {width:141px; text-indent:8px;}
+ul.PH li.tit .t3 {width:60px; text-align:center;}
+ul.PH li.tit .t4 {width:37px; text-align:center;}
+ul.PH li.tit .t5 {width:45px; text-align:center;}
+ul.PH li.con {width:321px; height:28px; border-bottom:1px dotted #333;}
+ul.PH li.con div {float:left; margin-right:1px; height:28px; line-height:28px; color:#777;}
+ul.PH li.con .t1 {width:32px; text-align:center; font-family:SimSun; font-weight:bold; background:#1e1e1e;}
+ul.PH li.con .t2 {width:141px; text-indent:8px;}
+ul.PH li.con .t2 a {color:#aaa;}
+ul.PH li.con .t2 a:hover {color:#ff9b1d;}
+ul.PH li.con .t3 {width:60px; text-align:center;}
+ul.PH li.con .t4 {width:37px; text-align:center;}
+ul.PH li.con .t5 {width:45px; text-align:center;}
+ul.PH.RY li.tit,ul.PH.RY .c1,ul.PH.RY .c2,ul.PH.RY .c3,ul.PH.RY .c4,ul.PH.RY .c5 {color:#f65c4c;}
+ul.PH.XY li.tit,ul.PH.XY .c1,ul.PH.XY .c2,ul.PH.XY .c3,ul.PH.XY .c4,ul.PH.XY .c5 {color:#51b6b9;}
+
+.Mid8_R {float:left; width:362px; height:650px;}
+/*网游测试表*/
+ul.WYPH {margin-bottom:17px; width:362px; height:auto;}
+ul.WYPH li.tit {width:364px; height:30px; color:#da83e8;}
+ul.WYPH li.tit div {float:left; margin-right:2px; height:27px; line-height:27px; background:#161616; border-top:1px solid #060606;}
+ul.WYPH li.tit .t1 {width:45px; text-align:center;}
+ul.WYPH li.tit .t2 {width:116px; text-indent:8px;}
+ul.WYPH li.tit .t3 {width:47px; text-align:center;}
+ul.WYPH li.tit .t4 {width:86px; text-indent:8px;}
+ul.WYPH li.tit .t5 {width:60px; text-align:center;}
+ul.WYPH li.con {width:364px; height:28px; border-bottom:1px dotted #333;}
+ul.WYPH li.con div {float:left; margin-right:2px; height:28px; line-height:28px; color:#777;}
+ul.WYPH li.con .t1 {width:45px; text-align:center; font-family:SimSun; background:#1e1e1e;}
+ul.WYPH li.con .t2 {width:116px; text-indent:8px;}
+ul.WYPH li.con .t2 a {color:#aaa;}
+ul.WYPH li.con .t2 a:hover {color:#ff9b1d;}
+ul.WYPH li.con .t3 {width:47px; text-align:center;}
+ul.WYPH li.con .t4 {width:86px; text-indent:8px;}
+ul.WYPH li.con .t5 {width:60px; text-align:center; color:#777;}
+ul.WYPH li.con .t5 a {color:#aaa;}
+ul.WYPH li.con .t5 a:hover {color:#ff9b1d;}
+/*手游测试表*/
+ul.SYPH {margin-bottom:17px; width:362px; height:auto;}
+ul.SYPH li.tit {width:364px; height:30px; color:#9ec564;}
+ul.SYPH li.tit div {float:left; margin-right:2px; height:27px; line-height:27px; background:#161616; border-top:1px solid #060606;}
+ul.SYPH li.tit .t1 {width:45px; text-align:center;}
+ul.SYPH li.tit .t2 {width:116px; text-indent:8px;}
+ul.SYPH li.tit .t3 {width:47px; text-align:center;}
+ul.SYPH li.tit .t4 {width:86px; text-indent:8px;}
+ul.SYPH li.tit .t5 {width:60px; text-align:center;}
+ul.SYPH li.con {width:364px; height:28px; border-bottom:1px dotted #333;}
+ul.SYPH li.con div {float:left; margin-right:2px; height:28px; line-height:28px; color:#777;}
+ul.SYPH li.con .t1 {width:45px; text-align:center; font-family:SimSun; background:#1e1e1e;}
+ul.SYPH li.con .t2 {width:116px; text-indent:8px;}
+ul.SYPH li.con .t2 a {color:#aaa;}
+ul.SYPH li.con .t2 a:hover {color:#ff9b1d;}
+ul.SYPH li.con .t3 {width:47px; text-align:center;}
+ul.SYPH li.con .t4 {width:86px; text-indent:8px;}
+ul.SYPH li.con .t5 {width:60px; text-align:center; color:#777;}
+ul.SYPH li.con .t5 a {color:#aaa;}
+ul.SYPH li.con .t5 a:hover {color:#ff9b1d;}
+

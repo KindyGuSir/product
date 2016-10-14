@@ -1,0 +1,37 @@
+/*user passport*/
+.ui-passport-pop input,.ui-passport-pop button,.ui-passport-pop form{margin:0;padding:0}
+.ui-passport-pop img{border:0}
+.ui-passport-pop h2,.ui-passport-pop h3{font-weight:400;font-size:100%;margin:0;padding:0;line-height:0}
+.ui-passport-pop{width:420px; height:auto;background:#e0e0e0;font:400 12px/2 Arial,Helvetica,SimSun;*zoom:1;position:absolute;top:50%;left:50%;z-index:2010;margin-left:-175px;margin-top:-180px}
+.ui-passport-pop .ui-passport-link{color:#777;text-decoration:none; margin-left:10px;}
+.ui-passport-pop .ui-passport-link:hover{ color:#cd4700;text-decoration:none;}
+.ui-passport-pop .ui-passport-hd{padding:18px 0px 38px 0px;position:relative;}
+.ui-passport-pop .ui-passport-bd{padding:0px 60px 20px 60px; width:300px;}
+.ui-passport-pop .ui-passport-txt{color:#999}
+.ui-passport-pop .ui-passport-msg-error .ui-passport-ico{display:none}
+.ui-passport-pop .ui-passport-msg-error{*background-position:0 40%;*display:inline-block;*zoom:1;padding-left:16px}
+.ui-passport-pop .ui-passport-msg-error .ui-passport-msg-con{display:block;color:red}
+.ui-passport-pop .ui-passport-input-ibox{position:absolute;top:10px;left:7px;}
+.ui-passport-pop .ui-passport-ico{display:block;width:17px;height:20px; background:url(http://j.gamersky.com/u/img/ico.gif) no-repeat;}
+.ui-passport-pop .ui-passport-input-user .ui-passport-ico{background-position:0 0px}
+.ui-passport-pop .ui-passport-input-pwd .ui-passport-ico{background-position:0 -22px}
+.ui-passport-pop .ui-passport-close{position:absolute;top:10px;right:15px;font:700 24px/1.2 SimSun;text-decoration:none;color:#b9b9b9}
+.ui-passport-pop .ui-passport-close:hover{color:#ff6c00}
+.ui-passport-pop .ui-passport-form{width:100%}
+.ui-passport-pop .ui-passport-form .ui-passport-c{text-align:left}
+.ui-passport-pop .ui-passport-form td{padding:0px 0}
+.ui-passport-pop .ui-passport-form .ui-passport-input-txt{background:#fafafa;border:1px solid #cdcdcd;cursor:text;position:relative;*zoom:1;margin:0px;}
+.ui-passport-pop .ui-passport-form .ui-passport-input-txt .ui-passport-txt{background:#fafafa;display:block;width:258px; height:20px; padding:10px 0;border:0;font-size:100%;color:#333;outline:0;padding-left:30px; line-height:20px; overflow:hidden;}
+.ui-passport-pop .ui-passport-form .ui-passport-input-user .ui-passport-txt{*margin-bottom:-1px}
+.ui-passport-pop .ui-passport-form .ui-passport-input-txt-focus,.ui-passport-pop .ui-passport-input-txt-hover,.ui-passport-pop .ui-passport-form .ui-passport-input-txt:hover{border:1px solid #fdd000;box-shadow:none;}
+.ui-passport-pop .ui-passport-form .ui-passport-input-txt-focus .ui-passport-txt,.ui-passport-pop .ui-passport-form .ui-passport-input-txt-hover .ui-passport-txt,.ui-passport-pop .ui-passport-form .ui-passport-input-txt:hover .ui-passport-txt{color:#333}
+.ui-passport-pop .ui-passport-form .ui-passport-input-check{float:left}
+.ui-passport-pop .ui-passport-form .ui-passport-input-check span,.ui-passport-form .ui-passport-input-check input{vertical-align:middle;margin-right:5px;*margin-right:2px}
+.ui-passport-pop .ui-passport-form .ui-passport-input-check .ui-passport-checkbox{_margin-bottom:3px}
+.ui-passport-pop .ui-passport-form .ui-passport-c-chk .ui-passport-link{float:right}
+.ui-passport-pop .ui-passport-form .ui-passport-button{ background:url(http://j.gamersky.com/u/img/botton.gif) no-repeat; width:300px; height:
+40px; border:none; cursor:pointer;}
+.ui-passport-pop .ui-passport-form .ui-passport-button:hover,.ui-passport-pop .ui-passport-form .ui-passport-button-hover{background:url(http://j.gamersky.com/u/img/botton.gif) no-repeat; width:300px; height:40px; border:none; cursor:pointer;}
+.ui-passport-input-wrap{position:relative;*zoom:1}
+.ui-passport-input-pwd{_z-index:10}
+.ui-passport-input-wrap{_z-index:20}.ui-passport-input-delete{display:none;position:absolute;top:50%;margin-top:-10px;right:.4em;width:20px;height:20px}

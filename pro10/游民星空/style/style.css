@@ -1,0 +1,488 @@
+/* 通用样式 */
+body,div,ul,li,p,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	word-break: break-all;
+}
+body{
+	background: #2A2A2A;
+}
+img{
+	vertical-align:top;
+	border: none medium;
+}
+ul,ol{
+	list-style: none;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.center{
+	width: 1100px;
+	margin: 0 auto;
+}
+i{
+	font-style: normal;
+	color: #666;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+/* header */
+.header{
+	background: url('../images/topbg.jpg');
+	height: 220px;
+	font-size: 12px;
+	border-bottom: 2px solid #9b2602;
+}
+.top{
+	background: #373737;
+	height: 36px;
+}
+.header-left{
+	float: left;
+	color: #ccc;
+	line-height: 36px;
+	background: url('../images/qzdh.png') no-repeat left center;
+	padding-left: 14px;
+}
+.header-right{
+	float: right;
+}
+.top-nav li{
+	float: left;
+	width: 106px;
+	text-align: center;
+	line-height: 36px;
+}
+.top-nav a{
+	text-decoration: none;
+	color: #ccc;
+}
+.phone-app{
+	background: url('../images/phone.png') no-repeat 4px center;
+}
+.top-nav i{
+	color: #595959;
+	display: inline-block;
+  float: left;
+  font-style: normal;
+  height: 36px;
+  line-height: 36px;
+  width: auto;
+}
+.top-nav .face{
+	background: url('../images/people.png') no-repeat left center;
+	margin-left: 12px;
+	padding-left: 10px;
+}
+.top-nav .login{
+	padding-right: 12px;
+}
+.header-con{
+	border-bottom: 1px solid #111;
+  height: 94px;
+  margin: 0 auto;
+  width: 1100px;
+}
+.logo{
+	height: 50px;
+	padding-top: 25px;
+	float: left;
+}
+.top-nav1{
+	border-top: 1px solid #444;
+  font-family: "Microsoft YaHei";
+  height: 62px;
+  margin: 0 auto;
+  padding-top: 16px;
+  width: 1100px;
+}
+/* .box-1 */
+.top-nav1 .box-1{
+	display: inline-block;
+  float: left;
+  height: 48px;
+  overflow: visible;
+  padding-left: 15px;
+  width: auto;
+  border-right: 1px solid #666;
+  padding-right: 5px;
+}
+.game li{
+	float: left;
+	color: #fff;
+	height: 48px;
+	width: 80px;
+	text-align: center;
+	line-height: 70px;
+}
+.djgame{
+	position: relative;
+}
+.game .dj{
+	position: absolute;
+	right: 36%;
+}
+/* .box-2 */
+.box-2{
+	float: left;
+  height: 48px;
+  overflow: visible;
+  padding-left: 30px;
+  width: auto;
+  border-right: 1px solid #666;
+}
+.box2-top li,.box2-bottom li{
+	float: left;
+	width: 70px;
+	height: 30px;
+}
+.box2-top a,.box2-bottom a{
+	text-decoration: none;
+	color: #ccc;
+}
+/* .box-3 */
+.box-3{
+	  border-right: 1px solid #666;
+    float: left;
+    height: 48px;
+    overflow: visible;
+    width: auto;
+}
+.box3-top li,.box3-bottom li{
+	float: left;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+}
+.box3-top a,.box3-bottom a{
+	text-decoration: none;
+	color: #ccc;
+}
+.vr{
+	font-weight: bold;
+	position: relative;
+}
+.n{
+	position: absolute;
+	right: 12px;
+	top: -6px;
+}
+/* .box-4 */
+.box-4{
+	float: left;
+  height: 48px;
+  width: 80px;
+  margin-left: 50px;
+}
+.bai{
+	margin-left: 12px;
+}
+/* contenet */
+.mid{
+	width: 1100px;
+	height: auto;
+	margin: 0 auto;
+	background: #F2F2F3;
+	margin-top: 40px;
+	padding: 0 20px 20px;
+}
+.navs{
+	width: 1058px;
+}
+.games a{
+	text-decoration: none;
+}
+.games{
+	width: 1100px;
+	height: 33px;
+	padding-top: 20px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+}
+.games li{
+	float: left;
+  width: 100px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border: 1px solid #ccc;
+  margin-right: -1px;
+  font-weight: bold;
+  border-bottom: none;
+  border-top: none;
+}
+.games a{
+	color: #000;
+	font-size: 14px;
+}
+.games .wl{
+	border-bottom: none;
+	border-top: 1px solid #ccc;
+}
+.games a:hover{
+	color: red;
+}
+.nba{
+	margin-top: 10px;
+	width: 1100px;
+}
+.nba img{
+	margin-left: 10px;
+}
+/* text */
+.text{
+	margin-top: 12px;
+	text-align: justify;
+}
+.text a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+}
+.text .wangluo{
+	font-weight: bold;
+}
+.text i{
+	font-style: normal;
+	color: #ccc;
+}
+.text .heightL{
+	color: red;
+}
+.t-nor{
+	margin-top: 0;
+}
+.t-putong{
+	padding-left: 56px;
+}
+/* search */
+.search{
+	width: 1100px;
+	margin: 20px auto 0;
+	height: 42px;
+	background: #ccc;
+}
+.seach-left{
+	float: left;
+}
+.sousuo{
+	float: left;
+  height: 38px;
+  width: 360px;
+  line-height: 38px;
+  font-size: 12px;
+}
+.radio{
+	height: auto;
+  width: 125px;
+  float: left;
+}
+.fd{
+	float: left;
+}
+input.Sinput {
+  background-color: #eee;
+  border: 0 none;
+  height: 32px;
+  line-height: 28px;
+  padding: 5px;
+  width: 168px;
+}
+input.Sbutton {
+	background: url('../images/sub.png') no-repeat;
+	border: none;
+}
+.search .sub{
+	margin-left: 14px;
+	margin-top: 14px;
+	cursor: pointer;
+}
+.hotsearch{
+	float: left;
+	font-size: 12px;
+  height: 38px;
+  line-height: 38px;
+  width: 698px;
+}
+.hot{
+	font-weight: bold;
+	font-size: 14px;
+}
+.hotsearch a{
+	text-decoration: none;
+	color: #000;
+	margin-left: 10px;
+}
+.hotsearch a:hover{
+	text-decoration: underline;
+	color: #f00;
+}
+/* 中间三个盒子 */
+.left-navs{
+	width: 387px;
+	height: 1100px;
+	float: left;
+}
+.middle-3{
+	margin-top: 10px;
+}
+.all-news{
+	width: 387px;
+	height: 1100px;
+}
+.all-news ul li{
+	float: left;
+	width: 120px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+}
+.all-news ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+.all-news .tit{
+	height: 32px;
+	position: relative;
+}
+.tit ul{
+	position: absolute;
+	width: 387px;
+
+}
+.tit .select{
+	background: #fff;
+	border: 1px solid #eee;
+	border-bottom-color: #fff;
+	border-top-color: #fff;
+	padding: 0;
+	font-weight: bold;
+}
+.tit li a:hover{
+	color: #f00;
+}
+.mod{
+	padding: 10px 10px;
+	display: none;
+
+	height: auto;
+}
+.heightLine{
+	display: block;
+}
+.mod ul{
+	font-size: 12px;
+	color: #666;
+	overflow: hidden;
+}
+/* 第一个mod */
+.h3-red{
+	color: #E22200;
+	line-height: 28px;
+}
+.rtt a{
+  font-size: 12px;
+}
+.rtt a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.ty{
+	text-align: left;
+	font-size: 12px;
+  margin-top: 10px;
+  background: url('../images/square.png') no-repeat left center;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.ty span{
+	float: right;
+	margin-right: 4px;
+}
+.ty-color{
+	color: #C72000;
+}
+.news-mtp{
+	margin-top: 30px;
+}
+/* 第二个mod */
+.news-hover{
+	font-size: 16px;
+	font-weight: bold;
+}
+.news-hover:hover{
+	color: #f00;
+	text-decoration: underline;
+}
+.img-news{
+	margin-top: 16px;
+	height: 80px;
+	border-bottom: 1px dotted #999;
+}
+.bianfu{
+	display: inline-block;
+	width: 110px;
+	height: 60px;
+	margin: 6px;
+}
+.wz-l{
+	font-size: 12px;
+	color: #999;
+}
+.bianfu{
+	float: left;
+}
+.mtp-15{
+	margin-top: 15px;
+}
+/* 第三个mod */
+.zatan{
+	font-size: 16px;
+	font-family: '微软雅黑';
+}
+.more{
+	float: right;
+	font-size: 12px;
+	color: #999;
+}
+.person{
+	float: left;
+	width: 122px;
+	height: 140px;
+	cursor: pointer;
+}
+.person-hover{
+	font-size: 12px;
+	color: #000;
+	padding: 2px;
+}
+.person-hover:hover{
+	color: #f00;
+	text-decoration: underline;
+}
+.movie{
+	line-height: 24px;
+	font-size: 12px;
+	clear: both;
+}
+.movie a{
+	font-size: 14px;
+}
+.movie a:hover{
+	text-decoration: underline;
+	color: #f00;
+}
+.movie span{
+	float: right;
+	color: #999;
+}
+.gun{
+	width: 170px;
+	margin-top: 10px;
+}
