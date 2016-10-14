@@ -331,6 +331,7 @@ input.Sbutton {
 .middle-3{
 	margin-top: 10px;
 }
+/* 左侧盒子 */
 .all-news{
 	width: 387px;
 	height: 1100px;
@@ -450,6 +451,7 @@ input.Sbutton {
 	float: right;
 	font-size: 12px;
 	color: #999;
+	cursor: pointer;
 }
 .person{
 	float: left;
@@ -485,4 +487,225 @@ input.Sbutton {
 .gun{
 	width: 170px;
 	margin-top: 10px;
+}
+/* 中间的盒子 */
+.center-navs{
+	float: left;
+	width: 387px;
+	height: 1100px;
+	margin-left: 25px;
+}
+.lunbo{
+	height: 315px;
+}
+.quwen{
+	height: 20px;
+}
+.zz{
+	float: left;
+	font-size: 14px;
+}
+.xia{
+	padding-top: 2px;
+	padding-right: 4px;
+}
+.tuwen{
+	height: 140px;
+}
+.mlf-4{
+	margin-left: 8px;
+}
+.tuwen .p1{
+	font-size: 12px;
+	line-height: 22px;
+}
+.p1 .text-left{
+	background: url('../images/yjt.png') no-repeat left;
+	float: left;
+	padding-left: 14px;
+}
+.p1 .text-right{
+	background: url('../images/yjt.png') no-repeat left;
+	float: right;
+	padding-left: 14px;
+}
+.hotsay{
+	height: 186px;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding-bottom: 8px;
+}
+.hotsay-all{
+	padding-top: 8px;
+}
+.hotsay-right{
+	width: 260px;
+	height: 120px;
+	float: left;
+	font-size: 12px;
+	padding-left: 12px;
+}
+.hotsimg{
+	float: left;
+}
+.vip{
+	font-size: 16px;
+	color: #333;
+}
+.box-one{
+	float: left;
+	width: 120px;
+	height: 46px;
+	border: 1px solid #999;
+	border-radius: 5px;
+}
+.box-one p{
+	line-height: 22px;
+}
+.box-one .num{
+	text-align: center;
+	border-bottom: 1px dotted #999;
+}
+.box-one .no{
+	text-align: center;
+	color: #E23703;
+}
+.box-one .yes{
+	color: #0A83A6;
+}
+.mrl-4{
+	margin-left: 8px;
+}
+.wangqi{
+	font-size: 12px;
+	line-height: 30px;
+}
+.renwei{
+	float: right;
+	cursor: pointer;
+}
+.zhongyao{
+	padding-right: 20px;
+	cursor: pointer;
+}
+.pingce-img{
+	height: 54px;
+	font-size: 12px;
+}
+.fifa{
+	float: left;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+.pingce-all{
+	width: 387px;
+	height: 54px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 10px;
+}
+.pingce-wz,.l{
+	float: left;
+}
+.pingce-left{
+	width: 250px;
+	float: left;
+	border-right: 1px solid #999;
+}
+.pingce-right{
+	float: left;
+	width: 130px;
+	height: 54px;
+}
+.pingce-right img{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.pingce-right p{
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+/* 右边的盒子 */
+.right-navs{
+	width: 270px;
+	height: 1100px;
+	float: left;
+	margin-left: 25px;
+}
+.dj{
+	font-size: 16px;
+}
+.jing{
+	width: 270px;
+}
+.gameName{
+	width: 268px;
+	height: 268px;
+	border: 1px solid #999;
+}
+.Name-time{
+	width: 100%;
+	height: 21px;
+	background: #EAEAEC;
+	font-size: 12px;
+	line-height: 21px;
+	color: #666;
+}
+.mc{
+	float: left;
+	margin-left: 15px;
+}
+.sj{
+	float: right;
+	margin-right: 15px;
+}
+.Game li{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	border-top: 1px dotted #999;
+}
+.Game a{
+	color: #262626;
+}
+.Game a:hover{
+	text-decoration: underline;
+	color: #f00;
+}
+.jiangwutang img{
+	width: 270px;
+}
+.zishi{
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	background: url('../images/dian.png') no-repeat left center;
+	padding-left: 15px;
+}
+.zishi a:hover{
+	text-decoration: underline;
+	color: #f00;
+}
+.zuopin{
+	height: 60px;
+	border-bottom: 1px dotted #999;
+}
+.qidai{
+	float: left;
+	padding: 10px 6px 0 10px;
+}
+.introduce{
+	font-size: 14px;
+	line-height: 28px;
+	color: #333;
+}
+.yugao{
+	color: #999;
+}
+.gengduo{
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	color: red;
 }
