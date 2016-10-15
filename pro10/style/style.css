@@ -1029,7 +1029,9 @@ input.Sbutton {
 	bottom: 0;
 }
 .luonv{
-	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 .suidao{
 	position: absolute;
@@ -1065,4 +1067,52 @@ input.Sbutton {
 }
 .jdimg-center:hover .zhezhaoceng{
 	display: block;
+}
+/* footer */
+.mid-footer{
+	background: #262626;
+	height: auto;
+	margin: 0 auto;
+	padding: 15px 20px 20px;
+	width: 1100px;
+}
+.paihangbang{
+	width: 492px;
+	height: auto;
+	float: left;
+}
+.new-paihang{
+	color: #999;
+}
+.paihang{
+	width: 492px;
+
+}
+.paihang li {
+	float: left;
+	width: 113px;
+	line-height: 28px;
+}
+.numpai li{
+	color: #999;
+}
+.paihang a, .numpai .hot-pai{
+	color: #F65C4C;
+}
+.paihang .mc{
+	width: 138px;
+	color: #999;
+	font-size: 12px;
+}
+.leixing,.redu{
+	color: #999;
+}
+.r{
+	float: right;
+}
+.paihang-lan li a{
+	color: #51B6B9;
+}
+.numpai .new-pai{
+	color: #51B6B9;
 }
