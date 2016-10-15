@@ -27,6 +27,8 @@ ul,ol{
 i{
 	font-style: normal;
 	color: #666;
+	padding: 0;
+	margin: 0;
 }
 a{
 	text-decoration: none;
@@ -981,4 +983,15 @@ input.Sbutton {
 }
 .sgws-red{
 	color: red;
+}
+.fashou li{
+	height: 26px;
+	line-height: 26px;
+}
+.fashou a:hover{
+	text-decoration: underline;
+	color: #f00;
+}
+.remen a{
+	color: #f00;
 }
