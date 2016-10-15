@@ -241,9 +241,6 @@ a{
 	margin-top: 10px;
 	width: 1100px;
 }
-.nba img{
-	margin-left: 10px;
-}
 /* text */
 .text{
 	margin-top: 12px;
@@ -289,8 +286,8 @@ a{
 }
 .radio{
 	height: auto;
-  width: 125px;
   float: left;
+	padding-right: 8px;
 }
 .fd{
 	float: left;
@@ -316,7 +313,7 @@ input.Sbutton {
 	float: left;
 	font-size: 12px;
   height: 38px;
-  line-height: 38px;
+  line-height: 44px;
   width: 698px;
 }
 .hot{
@@ -518,12 +515,6 @@ input.Sbutton {
 .xia{
 	padding-top: 2px;
 	padding-right: 4px;
-}
-.tuwen{
-	height: 140px;
-}
-.mlf-4{
-	margin-left: 8px;
 }
 .tuwen .p1{
 	font-size: 12px;
@@ -754,9 +745,6 @@ input.Sbutton {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-}
-.zimuzu{
-	margin-left: 6px;
 }
 .sp-right{
 	float: left;
