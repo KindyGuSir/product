@@ -1,5 +1,4 @@
-@charset="UTF-8";
-/* Í¨ÓÃÑùÊ½ */
+@charset "UTF-8";
 body,div,ul,li,p,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	padding: 0;
@@ -331,7 +330,7 @@ input.Sbutton {
 	text-decoration: underline;
 	color: #f00;
 }
-/* ÖÐ¼äÈý¸öºÐ×Ó */
+
 .left-navs{
 	width: 387px;
 	height: 1100px;
@@ -340,7 +339,8 @@ input.Sbutton {
 .middle-3{
 	margin-top: 10px;
 }
-/* ×ó²àºÐ×Ó */
+
+
 .all-news{
 	width: 387px;
 	height: 1100px;
@@ -604,7 +604,7 @@ input.Sbutton {
 	width: 387px;
 	height: 54px;
 	border-bottom: 1px solid #999;
-	padding-bottom: 10px;
+	padding-bottom: 9px;
 }
 .pingce-wz,.l{
 	float: left;
@@ -994,4 +994,75 @@ input.Sbutton {
 }
 .remen a{
 	color: #f00;
+}
+.jiaodian{
+	font-size: 16px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 6px;
+}
+.jiaodian img{
+	padding-top: 6px;
+	padding-right: 6px;
+}
+.jiaodianimg{
+	height: 316px;
+}
+.jdimg-left{
+	float: left;
+	width: 250px;
+	height: 316px;
+	position: relative;
+}
+.jdimg-left img{
+	height: 316px;
+}
+.jdimg-center{
+	float: left;
+	width: 632px;
+	height: 316px;
+	position: relative;
+	margin-left: 18px;
+}
+.nanren{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.luonv{
+	float: right;
+}
+.suidao{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.apple{
+	position: relative;
+}
+.jdimg-right{
+	float: right;
+	position: relative;
+}
+.zhezhaoceng{
+	z-index: 9999;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	left: 0;
+	top: 0;
+	color: #fff;
+	text-align: center;
+	line-height: 316px;
+	display: none;
+	cursor: pointer;
+}
+.jdimg-left:hover .zhezhaoceng{
+	display: block;
+}
+.jdimg-right:hover .zhezhaoceng{
+	display: block;
+}
+.jdimg-center:hover .zhezhaoceng{
+	display: block;
 }
