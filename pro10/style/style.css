@@ -1,11 +1,12 @@
-/* 通用样式 */
+@charset="UTF-8";
+/* Í¨ÓÃÑùÊ½ */
 body,div,ul,li,p,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6{
 	margin: 0;
 	padding: 0;
 	word-break: break-all;
 }
 body{
-	background: #2A2A2A;
+	background: #111;
 }
 img{
 	vertical-align:top;
@@ -141,6 +142,14 @@ a{
 	width: 70px;
 	height: 30px;
 }
+.box2-top a:hover{
+	color: #f00;
+	text-decoration: underline;
+}
+.box2-bottom a:hover{
+	color: #f00;
+	text-decoration: underline;
+}
 .box2-top a,.box2-bottom a{
 	text-decoration: none;
 	color: #ccc;
@@ -198,7 +207,7 @@ a{
 	text-decoration: none;
 }
 .games{
-	width: 1100px;
+	width: 1000px;
 	height: 33px;
 	padding-top: 20px;
 	margin: 0 auto;
@@ -206,11 +215,10 @@ a{
 }
 .games li{
 	float: left;
-  width: 100px;
+  width: 110px;
   height: 34px;
   text-align: center;
   line-height: 34px;
-  border: 1px solid #ccc;
   margin-right: -1px;
   font-weight: bold;
   border-bottom: none;
@@ -222,10 +230,12 @@ a{
 }
 .games .wl{
 	border-bottom: none;
-	border-top: 1px solid #ccc;
 }
 .games a:hover{
 	color: red;
+}
+.games li:hover{
+	background: #fff;
 }
 .nba{
 	margin-top: 10px;
@@ -322,7 +332,7 @@ input.Sbutton {
 	text-decoration: underline;
 	color: #f00;
 }
-/* 中间三个盒子 */
+/* ÖÐ¼äÈý¸öºÐ×Ó */
 .left-navs{
 	width: 387px;
 	height: 1100px;
@@ -331,7 +341,7 @@ input.Sbutton {
 .middle-3{
 	margin-top: 10px;
 }
-/* 左侧盒子 */
+/* ×ó²àºÐ×Ó */
 .all-news{
 	width: 387px;
 	height: 1100px;
@@ -382,7 +392,7 @@ input.Sbutton {
 	color: #666;
 	overflow: hidden;
 }
-/* 第一个mod */
+/* µÚÒ»¸ömod */
 .h3-red{
 	color: #E22200;
 	line-height: 28px;
@@ -412,7 +422,7 @@ input.Sbutton {
 .news-mtp{
 	margin-top: 30px;
 }
-/* 第二个mod */
+/* µÚ¶þ¸ömod */
 .news-hover{
 	font-size: 16px;
 	font-weight: bold;
@@ -442,10 +452,10 @@ input.Sbutton {
 .mtp-15{
 	margin-top: 15px;
 }
-/* 第三个mod */
+/* µÚÈý¸ömod */
 .zatan{
 	font-size: 16px;
-	font-family: '微软雅黑';
+	font-family: 'Î¢ÈíÑÅºÚ';
 }
 .more{
 	float: right;
@@ -488,7 +498,7 @@ input.Sbutton {
 	width: 170px;
 	margin-top: 10px;
 }
-/* 中间的盒子 */
+/* ÖÐ¼äµÄºÐ×Ó */
 .center-navs{
 	float: left;
 	width: 387px;
@@ -625,7 +635,7 @@ input.Sbutton {
 	font-size: 14px;
 	color: #666;
 }
-/* 右边的盒子 */
+/* ÓÒ±ßµÄºÐ×Ó */
 .right-navs{
 	width: 270px;
 	height: 1100px;
@@ -707,5 +717,280 @@ input.Sbutton {
 	text-align: center;
 	line-height: 50px;
 	cursor: pointer;
+	color: red;
+}
+/* ÊÓÆµ¾«Ñ¡ */
+.mid-sp{
+  background: #262626;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 20px 20px;
+  width: 1100px;
+}
+.sp-left{
+	float: left;
+	width: 390px;
+	height: 310px;
+}
+.heijt{
+	float: left;
+	padding-top: 4px;
+}
+.tit{
+	height: 30px;
+	width: 390px;
+}
+.spjx{
+	float: left;
+	margin-left: 4px;
+	color: #fff;
+}
+.tupians{
+	width: 390px;
+	height: 270px;
+	position: relative;
+}
+.weiji{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.zimuzu{
+	margin-left: 6px;
+}
+.sp-right{
+	float: left;
+	width: 680px;
+	height: 300px;
+	margin-left: 24px;
+}
+.sp-tit{
+	height: 27px;
+}
+.sp-tit li{
+	float: left;
+	width: 220px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+	padding: 0 1px;
+	background: #fff;
+	border-right: 1px solid #999;
+}
+.sp-tit .active{
+	background: #eee;
+	border-bottom-color: #fff;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	padding: 0;
+	font-weight: bold;
+}
+.sp-tit li a:hover{
+	color: #F00;
+}
+.sp-con .mods{
+	margin: 10px 6px;
+	display: none;
+}
+.sp-con .heightLine{
+	display: block;
+}
+.sp-con .mods li{
+	float: left;
+	width: 150px;
+	height: 128px;
+	margin-right: 17px;
+}
+.sp-con a{
+	font-size: 12px;
+	color: #fff;
+}
+.sp-con a:hover{
+	text-decoration: underline;
+}
+/* mid-bottom */
+.banner{
+	padding-top: 12px;
+}
+.banner img{
+	width: 1076px;
+}
+.danji-tit{
+	float: left;
+	width: 270px;
+}
+.dianwan{
+	border-bottom: 1px solid #999;
+	padding-bottom: 10px;
+}
+.danji{
+	padding-right: 6px;
+}
+.dianwan a{
+	font-size: 12px;
+	color: #666;
+	padding-right: 10px;
+}
+.dianwana{
+	float: right;
+	padding-right: 10px;
+}
+.dianwan a:hover{
+	text-decoration: underline;
+	color: #f00;
+}
+.dj-all{
+	width: 100%;
+}
+.dj-left{
+	float: left;
+	width: 386px;
+}
+.redian{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 6px;
+}
+.redian img{
+	padding-top: 7px;
+	padding-right: 4px;
+}
+.twnews{
+	height: 135px;
+	border-bottom: 1px solid #ccc;
+}
+.tuwenNews{
+	height: 72px;
+}
+.tuwenNews img{
+	float: left;
+}
+.tuwenNews p{
+	font-size: 12px;
+	width: 230px;
+	float: right;
+	line-height: 22px;
+	color: #666;
+}
+.twnews-tit{
+	font-weight: bold;
+}
+.dj-right{
+	width: 650px;
+	height: auto;
+	float: right;
+}
+.djgame-tit{
+	float: right;
+	padding-top: 6px;
+}
+.djgame-tit li{
+	float: left;
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #666;
+	margin-right: 2px;
+	border-radius: 4px;
+}
+.djgame-tit a{
+	font-weight: normal;
+	font-size: 12px;
+	color: #666;
+}
+.new-box{
+	width: 650px;
+	height: 106px;
+	border-left: 3px solid #f00;
+	padding-left: 3px;
+	margin-top: 12px;
+}
+.new-box:hover{
+	background: #fff;
+}
+.xkfy{
+	float: right;
+	opacity: 0.8;
+	z-index: 9999;
+}
+.new-box img{
+	width: 300px;
+	height: 105px;
+}
+.shaoxia{
+	font-size: 14px;
+	color: #598EA4;
+	font-weight: normal;
+	padding-left: 8px;
+}
+.xiake-tit{
+	border-bottom: 1px dotted #666;
+	float: left;
+	padding-bottom: 3px;
+}
+.new-box p{
+	float: left;
+	width: 320px;
+	font-size: 12px;
+	line-height: 26px;
+}
+.remen{
+	color: #f00;
+}
+.biaoqian{
+	color: #666;
+}
+.jingcai{
+	margin-top: 15px;
+}
+.jc-tit{
+	height: 27px;
+}
+.jc-tit li{
+	float: left;
+	width: 150px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	overflow: hidden;
+	border-bottom: 1px solid #eee;
+	padding: 0 1px;
+	background: #fff;
+	margin-right: 10px;
+}
+.jc-tit .active{
+	background: #eee;
+	border-bottom-color: #fff;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	padding: 0;
+	font-weight: bold;
+}
+.jc-con .box-s{
+	margin: 10px 6px;
+	display: none;
+}
+.jc-con .heightLine{
+	display: block;
+}
+.jc-con .box-s li{
+	float: left;
+	width: 150px;
+	height: 128px;
+	margin-right: 17px;
+}
+.sgws{
+	background: url('../images/dian.png') no-repeat left center;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 28px;
+}
+.r{
+	float: right;
+}
+.sgws-red{
 	color: red;
 }
